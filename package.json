@@ -37,6 +37,6 @@
     "eject": "react-scripts eject",
     "start-api": "cd api && venv/bin/flask run --no-debugger",
     "test-api": "cd api && venv/bin/pytest",
-    "build-api": "cd api && ls && virtualenv venv && . venv/bin/activate && pip install -r requirements.txt"
+    "build-api": "cd api && mkdir -p logs && virtualenv venv && . venv/bin/activate && pip install -r requirements.txt"
   }
 }
