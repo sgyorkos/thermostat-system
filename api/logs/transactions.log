@@ -1,0 +1,1633 @@
+01:42:14,48 data_accessor INFO Looking at all lights
+01:42:14,49 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:42:14] "[37mGET /light HTTP/1.1[0m" 200 -
+01:42:14,50 data_accessor INFO Looking at thermostat
+01:42:14,52 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:42:14] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+01:42:19,771 data_accessor INFO Updated thermostat with values [Temperature: 50, Unit: C]
+01:42:19,772 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:42:19] "[37mPOST /thermostat?temperature=&unit=C HTTP/1.1[0m" 200 -
+01:42:21,488 data_accessor INFO Looking at all lights
+01:42:21,489 data_accessor INFO Looking at thermostat
+01:42:21,489 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:42:21] "[37mGET /light HTTP/1.1[0m" 200 -
+01:42:21,491 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:42:21] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+01:42:28,890 data_accessor INFO Updated thermostat with values [Temperature: 122, Unit: F]
+01:42:28,892 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:42:28] "[37mPOST /thermostat?temperature=&unit=F HTTP/1.1[0m" 200 -
+01:42:30,463 data_accessor INFO Looking at thermostat
+01:42:30,464 data_accessor INFO Looking at all lights
+01:42:30,465 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:42:30] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+01:42:30,466 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:42:30] "[37mGET /light HTTP/1.1[0m" 200 -
+01:42:33,158 data_accessor INFO Updated thermostat with values [Temperature: 50, Unit: C]
+01:42:33,159 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:42:33] "[37mPOST /thermostat?temperature=&unit=C HTTP/1.1[0m" 200 -
+01:42:34,684 data_accessor INFO Looking at all lights
+01:42:34,685 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:42:34] "[37mGET /light HTTP/1.1[0m" 200 -
+01:42:34,688 data_accessor INFO Looking at thermostat
+01:42:34,689 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:42:34] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+01:42:39,169 data_accessor INFO Updated thermostat with values [Temperature: 123, Unit: C]
+01:42:39,171 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:42:39] "[37mPOST /thermostat?temperature=123&unit= HTTP/1.1[0m" 200 -
+01:42:40,601 data_accessor INFO Looking at all lights
+01:42:40,602 data_accessor INFO Looking at thermostat
+01:42:40,603 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:42:40] "[37mGET /light HTTP/1.1[0m" 200 -
+01:42:40,604 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:42:40] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+01:43:09,319 data_accessor DEBUG Attempting to add light with values [ImmutableMultiDict([('name', 'light3'), ('brightness', '70'), ('color', '#ABCDEF'), ('new', '')])]
+01:43:09,320 data_accessor INFO Added light [light3] with values [Brightness: 70, Color: #ABCDEF]
+01:43:09,321 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:43:09] "[37mPOST /light?name=light3&brightness=70&color=%23ABCDEF&new= HTTP/1.1[0m" 200 -
+01:43:09,519 data_accessor INFO Looking at all lights
+01:43:09,520 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:43:09] "[37mGET /light HTTP/1.1[0m" 200 -
+01:43:09,521 data_accessor INFO Looking at thermostat
+01:43:09,525 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:43:09] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+01:50:08,497 werkzeug INFO  * Detected change in '/home/simon/Canoo/thermostat-system/thermostat-system/api/data_accessor.py', reloading
+01:50:20,300 data_accessor INFO Looking at all lights
+01:50:20,302 data_accessor INFO Looking at thermostat
+01:50:20,304 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:50:20] "[37mGET /light HTTP/1.1[0m" 200 -
+01:50:20,305 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:50:20] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+01:52:00,875 api ERROR 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+01:52:00,876 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:52:00] "[33mGET /babel/parser/lib/index.js HTTP/1.1[0m" 404 -
+01:52:00,975 api ERROR 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+01:52:00,975 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:52:00] "[33mGET /babel/parser/lib/index.js HTTP/1.1[0m" 404 -
+01:54:09,419 api ERROR 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+01:54:09,421 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:54:09] "[33mGET /babel/parser/lib/index.js HTTP/1.1[0m" 404 -
+01:55:14,774 data_accessor DEBUG Attempting to add light with values [ImmutableMultiDict([('name', 'light4'), ('brightness', '100'), ('color', '#123456'), ('new', '')])]
+01:55:14,775 data_accessor INFO Added light [light4] with values [Brightness: 100, Color: #123456]
+01:55:14,777 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:55:14] "[37mPOST /light?name=light4&brightness=100&color=%23123456&new= HTTP/1.1[0m" 200 -
+01:55:16,346 data_accessor INFO Looking at all lights
+01:55:16,347 data_accessor INFO Looking at thermostat
+01:55:16,348 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:55:16] "[37mGET /light HTTP/1.1[0m" 200 -
+01:55:16,349 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:55:16] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+01:55:30,152 data_accessor INFO Updated thermostat with values [Temperature: 20, Unit: C]
+01:55:30,154 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:55:30] "[37mPOST /thermostat?temperature=20&unit= HTTP/1.1[0m" 200 -
+01:55:31,872 data_accessor INFO Looking at all lights
+01:55:31,873 data_accessor INFO Looking at thermostat
+01:55:31,874 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:55:31] "[37mGET /light HTTP/1.1[0m" 200 -
+01:55:31,875 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:55:31] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+01:55:41,125 data_accessor INFO Updated thermostat with values [Temperature: 68, Unit: F]
+01:55:41,127 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:55:41] "[37mPOST /thermostat?temperature=&unit=F HTTP/1.1[0m" 200 -
+01:55:42,387 data_accessor INFO Looking at all lights
+01:55:42,388 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:55:42] "[37mGET /light HTTP/1.1[0m" 200 -
+01:55:42,389 data_accessor INFO Looking at thermostat
+01:55:42,390 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:55:42] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+01:56:14,122 data_accessor INFO Looking at thermostat
+01:56:14,123 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:56:14] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+01:56:25,092 data_accessor INFO Looking at thermostat
+01:56:25,093 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:56:25] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+01:56:46,778 data_accessor DEBUG Attempting to add light with values [ImmutableMultiDict([('name', 'light5'), ('brightness', '0'), ('color', '#FFFFFF'), ('new', '')])]
+01:56:46,779 data_accessor INFO Added light [light5] with values [Brightness: 0, Color: #FFFFFF]
+01:56:46,780 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:56:46] "[37mPOST /light?name=light5&brightness=0&color=%23FFFFFF&new= HTTP/1.1[0m" 200 -
+01:56:48,274 data_accessor INFO Looking at all lights
+01:56:48,275 data_accessor INFO Looking at thermostat
+01:56:48,276 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:56:48] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+01:56:48,277 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:56:48] "[37mGET /light HTTP/1.1[0m" 200 -
+01:57:29,567 data_accessor DEBUG Attempting to add light with values [ImmutableMultiDict([('name', 'light6'), ('brightness', '20'), ('color', '#FFFFFF'), ('new', '')])]
+01:57:29,568 data_accessor INFO Added light [light6] with values [Brightness: 20, Color: #FFFFFF]
+01:57:29,570 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:57:29] "[37mPOST /light?name=light6&brightness=20&color=%23FFFFFF&new= HTTP/1.1[0m" 200 -
+01:57:31,284 data_accessor INFO Looking at all lights
+01:57:31,286 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:57:31] "[37mGET /light HTTP/1.1[0m" 200 -
+01:57:31,289 data_accessor INFO Looking at thermostat
+01:57:31,290 werkzeug INFO 127.0.0.1 - - [05/May/2021 01:57:31] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+01:58:53,049 werkzeug INFO  * Detected change in '/home/simon/Canoo/thermostat-system/thermostat-system/api/data_accessor.py', reloading
+02:04:39,210 werkzeug INFO  * Detected change in '/home/simon/Canoo/thermostat-system/thermostat-system/api/data_accessor.py', reloading
+02:11:45,51 werkzeug INFO  * Detected change in '/home/simon/Canoo/thermostat-system/thermostat-system/api/data_accessor.py', reloading
+02:12:41,0 werkzeug INFO  * Detected change in '/home/simon/Canoo/thermostat-system/thermostat-system/api/data_accessor.py', reloading
+02:13:03,696 werkzeug INFO  * Detected change in '/home/simon/Canoo/thermostat-system/thermostat-system/api/data_accessor.py', reloading
+02:14:10,703 werkzeug INFO  * Detected change in '/home/simon/Canoo/thermostat-system/thermostat-system/api/api.py', reloading
+02:19:06,946 werkzeug INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+02:19:06,947 werkzeug INFO  * Restarting with stat
+02:19:30,855 data_accessor INFO Looking at all lights
+02:19:30,855 data_accessor INFO Looking at thermostat
+02:19:30,856 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:19:30] "[37mGET /light HTTP/1.1[0m" 200 -
+02:19:30,856 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:19:30] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:19:49,213 data_accessor INFO Looking at all lights
+02:19:49,214 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:19:49] "[37mGET /light HTTP/1.1[0m" 200 -
+02:19:49,214 data_accessor INFO Looking at thermostat
+02:19:49,215 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:19:49] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:19:55,735 data_accessor INFO Looking at thermostat
+02:19:55,736 data_accessor INFO Looking at all lights
+02:19:55,737 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:19:55] "[37mGET /light HTTP/1.1[0m" 200 -
+02:19:55,737 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:19:55] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:20:05,685 data_accessor INFO Looking at all lights
+02:20:05,686 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:20:05] "[37mGET /light HTTP/1.1[0m" 200 -
+02:20:05,686 data_accessor INFO Looking at thermostat
+02:20:05,687 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:20:05] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:20:08,849 data_accessor INFO Looking at all lights
+02:20:08,849 data_accessor INFO Looking at thermostat
+02:20:08,850 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:20:08] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:20:08,851 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:20:08] "[37mGET /light HTTP/1.1[0m" 200 -
+02:20:25,858 data_accessor INFO Looking at all lights
+02:20:25,858 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:20:25] "[37mGET /light HTTP/1.1[0m" 200 -
+02:20:25,858 data_accessor INFO Looking at thermostat
+02:20:25,859 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:20:25] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:20:47,81 data_accessor INFO Looking at all lights
+02:20:47,82 data_accessor INFO Looking at thermostat
+02:20:47,83 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:20:47] "[37mGET /light HTTP/1.1[0m" 200 -
+02:20:47,83 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:20:47] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:21:00,114 data_accessor INFO Looking at all lights
+02:21:00,114 data_accessor INFO Looking at thermostat
+02:21:00,115 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:21:00] "[37mGET /light HTTP/1.1[0m" 200 -
+02:21:00,115 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:21:00] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:21:01,121 data_accessor INFO Looking at all lights
+02:21:01,121 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:21:01] "[37mGET /light HTTP/1.1[0m" 200 -
+02:21:01,122 data_accessor INFO Looking at thermostat
+02:21:01,122 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:21:01] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:21:01,909 data_accessor INFO Looking at all lights
+02:21:01,910 data_accessor INFO Looking at thermostat
+02:21:01,910 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:21:01] "[37mGET /light HTTP/1.1[0m" 200 -
+02:21:01,911 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:21:01] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:21:24,128 data_accessor INFO Looking at all lights
+02:21:24,128 data_accessor INFO Looking at thermostat
+02:21:24,129 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:21:24] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:21:24,129 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:21:24] "[37mGET /light HTTP/1.1[0m" 200 -
+02:21:30,66 data_accessor INFO Looking at all lights
+02:21:30,66 data_accessor INFO Looking at thermostat
+02:21:30,67 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:21:30] "[37mGET /light HTTP/1.1[0m" 200 -
+02:21:30,67 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:21:30] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:21:49,424 data_accessor INFO Looking at all lights
+02:21:49,425 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:21:49] "[37mGET /light HTTP/1.1[0m" 200 -
+02:21:49,425 data_accessor INFO Looking at thermostat
+02:21:49,426 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:21:49] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:21:55,750 data_accessor INFO Looking at all lights
+02:21:55,751 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:21:55] "[37mGET /light HTTP/1.1[0m" 200 -
+02:21:55,751 data_accessor INFO Looking at thermostat
+02:21:55,752 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:21:55] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:23:06,7 data_accessor INFO Looking at all lights
+02:23:06,7 data_accessor INFO Looking at thermostat
+02:23:06,8 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:23:06] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:23:06,8 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:23:06] "[37mGET /light HTTP/1.1[0m" 200 -
+02:23:30,998 data_accessor INFO Looking at all lights
+02:23:30,998 data_accessor INFO Looking at thermostat
+02:23:30,999 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:23:30] "[37mGET /light HTTP/1.1[0m" 200 -
+02:23:30,999 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:23:30] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:23:34,165 data_accessor INFO Looking at all lights
+02:23:34,165 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:23:34] "[37mGET /light HTTP/1.1[0m" 200 -
+02:23:34,166 data_accessor INFO Looking at thermostat
+02:23:34,166 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:23:34] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:25:33,515 data_accessor INFO Looking at all lights
+02:25:33,516 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:25:33] "[37mGET /light HTTP/1.1[0m" 200 -
+02:25:33,516 data_accessor INFO Looking at thermostat
+02:25:33,517 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:25:33] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:25:40,320 data_accessor DEBUG Attempting to update light with values [ImmutableMultiDict([('name', 'light1'), ('brightness', '100'), ('color', '#FFFFAA')])]
+02:25:40,321 data_accessor INFO Updated light [light1] with values [Brightness: 100, Color: #FFFFAA]
+02:25:40,322 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:25:40] "[37mPOST /light?name=light1&brightness=100&color=%23FFFFAA HTTP/1.1[0m" 200 -
+02:25:40,414 data_accessor INFO Looking at all lights
+02:25:40,415 data_accessor INFO Looking at thermostat
+02:25:40,415 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:25:40] "[37mGET /light HTTP/1.1[0m" 200 -
+02:25:40,416 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:25:40] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:25:58,739 data_accessor INFO Looking at all lights
+02:25:58,741 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:25:58] "[37mGET /light HTTP/1.1[0m" 200 -
+02:27:05,156 data_accessor INFO Looking at all lights
+02:27:05,157 data_accessor INFO Looking at thermostat
+02:27:05,157 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:27:05] "[37mGET /light HTTP/1.1[0m" 200 -
+02:27:05,159 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:27:05] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:27:23,393 data_accessor INFO Looking at all lights
+02:27:23,393 data_accessor INFO Looking at thermostat
+02:27:23,394 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:27:23] "[37mGET /light HTTP/1.1[0m" 200 -
+02:27:23,394 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:27:23] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:30:20,722 werkzeug INFO  * Restarting with stat
+02:30:23,571 data_accessor INFO Looking at all lights
+02:30:23,572 data_accessor INFO Looking at thermostat
+02:30:23,573 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:30:23] "[37mGET /light HTTP/1.1[0m" 200 -
+02:30:23,573 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:30:23] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:30:39,782 data_accessor INFO Looking at all lights
+02:30:39,782 data_accessor INFO Looking at thermostat
+02:30:39,783 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:30:39] "[37mGET /light HTTP/1.1[0m" 200 -
+02:30:39,783 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:30:39] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:31:13,917 werkzeug INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+02:31:13,917 werkzeug INFO  * Restarting with stat
+02:31:14,103 werkzeug WARNING  * Debugger is active!
+02:31:14,107 werkzeug INFO  * Debugger PIN: 606-835-859
+02:31:20,972 data_accessor INFO Looking at thermostat
+02:31:20,972 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:31:20] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:31:20,973 data_accessor INFO Looking at all lights
+02:31:20,974 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:31:20] "[37mGET /light HTTP/1.1[0m" 200 -
+02:31:21,783 data_accessor INFO Looking at all lights
+02:31:21,784 data_accessor INFO Looking at thermostat
+02:31:21,785 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:31:21] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:31:21,785 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:31:21] "[37mGET /light HTTP/1.1[0m" 200 -
+02:31:22,219 data_accessor INFO Looking at all lights
+02:31:22,221 data_accessor INFO Looking at thermostat
+02:31:22,222 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:31:22] "[37mGET /light HTTP/1.1[0m" 200 -
+02:31:22,222 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:31:22] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:31:22,466 data_accessor INFO Looking at all lights
+02:31:22,466 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:31:22] "[37mGET /light HTTP/1.1[0m" 200 -
+02:31:22,467 data_accessor INFO Looking at thermostat
+02:31:22,468 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:31:22] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:31:22,627 data_accessor INFO Looking at all lights
+02:31:22,628 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:31:22] "[37mGET /light HTTP/1.1[0m" 200 -
+02:31:22,629 data_accessor INFO Looking at thermostat
+02:31:22,629 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:31:22] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:31:22,782 data_accessor INFO Looking at thermostat
+02:31:22,782 data_accessor INFO Looking at all lights
+02:31:22,783 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:31:22] "[37mGET /light HTTP/1.1[0m" 200 -
+02:31:22,783 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:31:22] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:31:33,807 data_accessor INFO Looking at all lights
+02:31:33,807 data_accessor INFO Looking at thermostat
+02:31:33,808 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:31:33] "[37mGET /light HTTP/1.1[0m" 200 -
+02:31:33,808 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:31:33] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:32:11,929 data_accessor INFO Looking at all lights
+02:32:11,930 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:32:11] "[37mGET /light HTTP/1.1[0m" 200 -
+02:32:11,930 data_accessor INFO Looking at thermostat
+02:32:11,931 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:32:11] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:32:14,535 data_accessor DEBUG Attempting to update light with values [ImmutableMultiDict([('name', 'light1'), ('brightness', '100'), ('color', '#FFFFAA')])]
+02:32:14,537 data_accessor INFO Updated light [light1] with values [Brightness: 100, Color: #FFFFAA]
+02:32:14,539 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:32:14] "[37mPOST /light?name=light1&brightness=100&color=%23FFFFAA HTTP/1.1[0m" 200 -
+02:32:16,781 data_accessor INFO Looking at all lights
+02:32:16,782 data_accessor INFO Looking at thermostat
+02:32:16,784 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:32:16] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:32:16,786 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:32:16] "[37mGET /light HTTP/1.1[0m" 200 -
+02:33:14,78 data_accessor INFO Looking at thermostat
+02:33:14,79 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:33:14] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:33:14,96 data_accessor INFO Looking at thermostat
+02:33:14,97 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:33:14] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:33:39,392 data_accessor INFO Looking at thermostat
+02:33:39,392 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:33:39] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:33:39,419 data_accessor INFO Looking at thermostat
+02:33:39,420 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:33:39] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+02:34:18,991 data_accessor DEBUG Attempting to delete light  [light5]
+02:34:18,994 data_accessor INFO Looking at all lights
+02:34:18,996 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:34:18] "[37mGET /light HTTP/1.1[0m" 200 -
+02:34:18,997 data_accessor INFO Deleted light [light5]
+02:34:18,999 werkzeug INFO 127.0.0.1 - - [05/May/2021 02:34:18] "[37mDELETE /light?name=light5 HTTP/1.1[0m" 200 -
+02:52:48,324 werkzeug INFO  * Detected change in '/home/simon/Canoo/thermostat-system/thermostat-system/api/data_accessor.py', reloading
+02:52:48,353 werkzeug INFO  * Restarting with stat
+02:52:48,558 werkzeug WARNING  * Debugger is active!
+02:52:48,558 werkzeug INFO  * Debugger PIN: 606-835-859
+02:54:24,278 werkzeug INFO  * Detected change in '/home/simon/Canoo/thermostat-system/thermostat-system/api/data_accessor.py', reloading
+02:54:24,322 werkzeug INFO  * Restarting with stat
+02:54:24,538 werkzeug WARNING  * Debugger is active!
+02:54:24,539 werkzeug INFO  * Debugger PIN: 606-835-859
+02:56:43,640 werkzeug INFO  * Detected change in '/home/simon/Canoo/thermostat-system/thermostat-system/api/data_accessor.py', reloading
+02:56:43,680 werkzeug INFO  * Restarting with stat
+02:56:43,881 werkzeug WARNING  * Debugger is active!
+02:56:43,882 werkzeug INFO  * Debugger PIN: 606-835-859
+02:59:41,289 werkzeug INFO  * Detected change in '/home/simon/Canoo/thermostat-system/thermostat-system/api/data_accessor.py', reloading
+02:59:41,322 werkzeug INFO  * Restarting with stat
+02:59:41,550 werkzeug WARNING  * Debugger is active!
+02:59:41,550 werkzeug INFO  * Debugger PIN: 606-835-859
+03:01:52,524 werkzeug INFO  * Detected change in '/home/simon/Canoo/thermostat-system/thermostat-system/api/data_accessor.py', reloading
+03:01:52,569 werkzeug INFO  * Restarting with stat
+03:13:04,765 data_accessor INFO Looking at all lights
+03:13:04,766 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:13:04] "[37mGET /light HTTP/1.1[0m" 200 -
+03:13:08,967 data_accessor INFO Looking at all lights
+03:13:08,968 data_accessor INFO Looking at thermostat
+03:13:08,969 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:13:08] "[37mGET /light HTTP/1.1[0m" 200 -
+03:13:08,970 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:13:08] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:13:26,552 data_accessor INFO Looking at all lights
+03:13:26,552 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:13:26] "[37mGET /light HTTP/1.1[0m" 200 -
+03:14:00,835 data_accessor INFO Looking at all lights
+03:14:00,835 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:14:00] "[37mGET /light HTTP/1.1[0m" 200 -
+03:14:18,332 data_accessor INFO Looking at all lights
+03:14:18,332 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:14:18] "[37mGET /light HTTP/1.1[0m" 200 -
+03:16:02,327 data_accessor DEBUG Attempting to flip light [light1]
+03:16:02,328 data_accessor INFO Looking at all lights
+03:16:02,331 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:16:02] "[37mGET /light HTTP/1.1[0m" 200 -
+03:16:02,347 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:16:02] "[35m[1mPOST /light?name=light1 HTTP/1.1[0m" 500 -
+03:16:03,298 data_accessor DEBUG Attempting to flip light [light1]
+03:16:03,301 data_accessor INFO Looking at all lights
+03:16:03,302 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:16:03] "[37mGET /light HTTP/1.1[0m" 200 -
+03:16:03,328 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:16:03] "[35m[1mPOST /light?name=light1 HTTP/1.1[0m" 500 -
+03:16:03,750 data_accessor DEBUG Attempting to flip light [light1]
+03:16:03,753 data_accessor INFO Looking at all lights
+03:16:03,755 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:16:03] "[37mGET /light HTTP/1.1[0m" 200 -
+03:16:03,781 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:16:03] "[35m[1mPOST /light?name=light1 HTTP/1.1[0m" 500 -
+03:16:45,340 data_accessor INFO Looking at all lights
+03:16:45,340 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:16:45] "[37mGET /light HTTP/1.1[0m" 200 -
+03:16:48,654 data_accessor DEBUG Attempting to flip light [light1]
+03:16:48,658 data_accessor INFO Looking at all lights
+03:16:48,661 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:16:48] "[37mGET /light HTTP/1.1[0m" 200 -
+03:16:48,695 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:16:48] "[35m[1mPOST /light?name=light1 HTTP/1.1[0m" 500 -
+03:16:49,338 data_accessor DEBUG Attempting to flip light [light1]
+03:16:49,345 data_accessor INFO Looking at all lights
+03:16:49,349 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:16:49] "[37mGET /light HTTP/1.1[0m" 200 -
+03:16:49,377 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:16:49] "[35m[1mPOST /light?name=light1 HTTP/1.1[0m" 500 -
+03:16:49,534 data_accessor DEBUG Attempting to flip light [light1]
+03:16:49,537 data_accessor INFO Looking at all lights
+03:16:49,539 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:16:49] "[37mGET /light HTTP/1.1[0m" 200 -
+03:16:49,565 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:16:49] "[35m[1mPOST /light?name=light1 HTTP/1.1[0m" 500 -
+03:17:22,648 data_accessor INFO Looking at all lights
+03:17:22,648 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:17:22] "[37mGET /light HTTP/1.1[0m" 200 -
+03:17:28,699 data_accessor DEBUG Attempting to flip light [light1]
+03:17:28,700 data_accessor INFO Looking at all lights
+03:17:28,701 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:17:28] "[37mGET /light HTTP/1.1[0m" 200 -
+03:17:28,715 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:17:28] "[35m[1mPOST /light?name=light1 HTTP/1.1[0m" 500 -
+03:17:29,227 data_accessor DEBUG Attempting to flip light [light1]
+03:17:29,230 data_accessor INFO Looking at all lights
+03:17:29,233 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:17:29] "[37mGET /light HTTP/1.1[0m" 200 -
+03:17:29,258 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:17:29] "[35m[1mPOST /light?name=light1 HTTP/1.1[0m" 500 -
+03:17:29,678 data_accessor INFO Looking at all lights
+03:17:29,679 data_accessor DEBUG Attempting to flip light [light1]
+03:17:29,683 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:17:29] "[37mGET /light HTTP/1.1[0m" 200 -
+03:17:29,707 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:17:29] "[35m[1mPOST /light?name=light1 HTTP/1.1[0m" 500 -
+03:17:29,840 data_accessor DEBUG Attempting to flip light [light1]
+03:17:29,843 data_accessor INFO Looking at all lights
+03:17:29,845 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:17:29] "[37mGET /light HTTP/1.1[0m" 200 -
+03:17:29,870 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:17:29] "[35m[1mPOST /light?name=light1 HTTP/1.1[0m" 500 -
+03:17:30,29 data_accessor DEBUG Attempting to flip light [light1]
+03:17:30,33 data_accessor INFO Looking at all lights
+03:17:30,36 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:17:30] "[37mGET /light HTTP/1.1[0m" 200 -
+03:17:30,61 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:17:30] "[35m[1mPOST /light?name=light1 HTTP/1.1[0m" 500 -
+03:17:49,350 data_accessor DEBUG Attempting to flip light [light1]
+03:17:49,351 data_accessor INFO Looking at all lights
+03:17:49,354 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:17:49] "[37mGET /light HTTP/1.1[0m" 200 -
+03:17:49,369 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:17:49] "[35m[1mPOST /light?name=light1 HTTP/1.1[0m" 500 -
+03:17:56,159 werkzeug INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+03:17:56,160 werkzeug INFO  * Restarting with stat
+03:17:56,348 werkzeug WARNING  * Debugger is active!
+03:17:56,348 werkzeug INFO  * Debugger PIN: 606-835-859
+03:17:59,371 data_accessor DEBUG Attempting to flip light [light1]
+03:17:59,376 data_accessor INFO Looking at all lights
+03:17:59,377 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:17:59] "[37mGET /light HTTP/1.1[0m" 200 -
+03:17:59,388 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:17:59] "[35m[1mPOST /light?name=light1 HTTP/1.1[0m" 500 -
+03:19:27,246 data_accessor DEBUG Attempting to flip light [light1]
+03:19:27,247 data_accessor INFO Light [light1] now 
+03:19:27,249 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:19:27] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+03:19:27,252 data_accessor INFO Looking at all lights
+03:19:27,255 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:19:27] "[37mGET /light HTTP/1.1[0m" 200 -
+03:19:38,403 data_accessor INFO Looking at all lights
+03:19:38,405 data_accessor INFO Looking at thermostat
+03:19:38,406 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:19:38] "[37mGET /light HTTP/1.1[0m" 200 -
+03:19:38,408 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:19:38] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:19:40,287 data_accessor DEBUG Attempting to flip light [light2]
+03:19:40,290 data_accessor INFO Looking at all lights
+03:19:40,293 data_accessor INFO Light [light2] now 
+03:19:40,294 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:19:40] "[37mPOST /light?name=light2 HTTP/1.1[0m" 200 -
+03:19:40,322 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:19:40] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:19:42,896 data_accessor INFO Looking at all lights
+03:19:42,896 data_accessor INFO Looking at thermostat
+03:19:42,898 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:19:42] "[37mGET /light HTTP/1.1[0m" 200 -
+03:19:42,898 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:19:42] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:19:45,255 data_accessor DEBUG Attempting to flip light [light1]
+03:19:45,257 data_accessor INFO Looking at all lights
+03:19:45,258 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:19:45] "[37mGET /light HTTP/1.1[0m" 200 -
+03:19:45,259 data_accessor INFO Light [light1] now 
+03:19:45,260 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:19:45] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+03:19:47,941 data_accessor INFO Looking at all lights
+03:19:47,942 data_accessor INFO Looking at thermostat
+03:19:47,943 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:19:47] "[37mGET /light HTTP/1.1[0m" 200 -
+03:19:47,943 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:19:47] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:20:08,518 data_accessor INFO Looking at all lights
+03:20:08,519 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:20:08] "[37mGET /light HTTP/1.1[0m" 200 -
+03:20:09,730 data_accessor DEBUG Attempting to flip light [light1]
+03:20:09,731 data_accessor INFO Light [light1] now 
+03:20:09,733 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:20:09] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+03:20:09,743 data_accessor INFO Looking at all lights
+03:20:09,744 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:20:09] "[37mGET /light HTTP/1.1[0m" 200 -
+03:20:11,954 data_accessor DEBUG Attempting to flip light [light1]
+03:20:11,956 data_accessor INFO Looking at all lights
+03:20:11,959 data_accessor INFO Light [light1] now 
+03:20:11,961 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:20:11] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+03:20:11,989 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:20:11] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:20:14,686 data_accessor DEBUG Attempting to flip light [light3]
+03:20:14,689 data_accessor INFO Looking at all lights
+03:20:14,690 data_accessor INFO Light [light3] now 
+03:20:14,692 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:20:14] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:20:14,693 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:20:14] "[37mGET /light HTTP/1.1[0m" 200 -
+03:20:16,673 data_accessor INFO Looking at all lights
+03:20:16,673 data_accessor INFO Looking at thermostat
+03:20:16,674 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:20:16] "[37mGET /light HTTP/1.1[0m" 200 -
+03:20:16,675 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:20:16] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:21:15,759 data_accessor INFO Looking at all lights
+03:21:15,760 data_accessor INFO Looking at thermostat
+03:21:15,761 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:21:15] "[37mGET /light HTTP/1.1[0m" 200 -
+03:21:15,762 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:21:15] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:21:16,927 data_accessor DEBUG Attempting to flip light [light1]
+03:21:16,929 data_accessor INFO Looking at all lights
+03:21:16,931 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:21:16] "[37mGET /light HTTP/1.1[0m" 200 -
+03:21:16,932 data_accessor INFO Light [light1] now 
+03:21:16,933 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:21:16] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+03:21:19,294 data_accessor INFO Looking at all lights
+03:21:19,295 data_accessor INFO Looking at thermostat
+03:21:19,295 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:21:19] "[37mGET /light HTTP/1.1[0m" 200 -
+03:21:19,296 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:21:19] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:21:54,126 data_accessor INFO Looking at all lights
+03:21:54,126 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:21:54] "[37mGET /light HTTP/1.1[0m" 200 -
+03:21:56,543 data_accessor DEBUG Attempting to flip light [light1]
+03:21:56,545 data_accessor INFO Light [light1] now 
+03:21:56,546 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:21:56] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+03:21:57,631 data_accessor INFO Looking at all lights
+03:21:57,634 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:21:57] "[37mGET /light HTTP/1.1[0m" 200 -
+03:21:58,878 data_accessor DEBUG Attempting to flip light [light4]
+03:21:58,880 data_accessor INFO Light [light4] now 
+03:21:58,881 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:21:58] "[37mPOST /light?name=light4 HTTP/1.1[0m" 200 -
+03:22:00,27 data_accessor INFO Looking at all lights
+03:22:00,29 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:00] "[37mGET /light HTTP/1.1[0m" 200 -
+03:22:01,323 data_accessor INFO Looking at all lights
+03:22:01,323 data_accessor INFO Looking at thermostat
+03:22:01,323 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:01] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:22:01,324 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:01] "[37mGET /light HTTP/1.1[0m" 200 -
+03:22:13,603 data_accessor INFO Looking at all lights
+03:22:13,604 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:13] "[37mGET /light HTTP/1.1[0m" 200 -
+03:22:15,27 data_accessor DEBUG Attempting to flip light [light1]
+03:22:15,28 data_accessor INFO Light [light1] now 
+03:22:15,30 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:15] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+03:22:15,972 data_accessor INFO Looking at all lights
+03:22:15,974 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:15] "[37mGET /light HTTP/1.1[0m" 200 -
+03:22:16,776 data_accessor DEBUG Attempting to flip light [light2]
+03:22:16,778 data_accessor INFO Light [light2] now 
+03:22:16,779 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:16] "[37mPOST /light?name=light2 HTTP/1.1[0m" 200 -
+03:22:17,767 data_accessor INFO Looking at all lights
+03:22:17,768 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:17] "[37mGET /light HTTP/1.1[0m" 200 -
+03:22:19,18 data_accessor INFO Looking at all lights
+03:22:19,19 data_accessor INFO Looking at thermostat
+03:22:19,20 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:19] "[37mGET /light HTTP/1.1[0m" 200 -
+03:22:19,20 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:19] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:22:19,593 data_accessor INFO Looking at all lights
+03:22:19,594 data_accessor INFO Looking at thermostat
+03:22:19,595 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:19] "[37mGET /light HTTP/1.1[0m" 200 -
+03:22:19,596 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:19] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:22:20,148 data_accessor INFO Looking at all lights
+03:22:20,148 data_accessor INFO Looking at thermostat
+03:22:20,149 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:20] "[37mGET /light HTTP/1.1[0m" 200 -
+03:22:20,150 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:20] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:22:20,394 data_accessor INFO Looking at all lights
+03:22:20,395 data_accessor INFO Looking at thermostat
+03:22:20,396 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:20] "[37mGET /light HTTP/1.1[0m" 200 -
+03:22:20,397 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:20] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:22:20,701 data_accessor INFO Looking at all lights
+03:22:20,702 data_accessor INFO Looking at thermostat
+03:22:20,703 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:20] "[37mGET /light HTTP/1.1[0m" 200 -
+03:22:20,704 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:22:20] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:25:17,760 data_accessor INFO Looking at all lights
+03:25:17,761 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:25:17] "[37mGET /light HTTP/1.1[0m" 200 -
+03:25:48,172 data_accessor INFO Looking at thermostat
+03:25:48,173 data_accessor INFO Looking at all lights
+03:25:48,174 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:25:48] "[37mGET /light HTTP/1.1[0m" 200 -
+03:25:48,174 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:25:48] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:25:48,689 data_accessor INFO Looking at all lights
+03:25:48,690 data_accessor INFO Looking at thermostat
+03:25:48,691 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:25:48] "[37mGET /light HTTP/1.1[0m" 200 -
+03:25:48,691 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:25:48] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:25:48,976 data_accessor INFO Looking at all lights
+03:25:48,978 data_accessor INFO Looking at thermostat
+03:25:48,978 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:25:48] "[37mGET /light HTTP/1.1[0m" 200 -
+03:25:48,979 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:25:48] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:25:49,190 data_accessor INFO Looking at all lights
+03:25:49,191 data_accessor INFO Looking at thermostat
+03:25:49,192 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:25:49] "[37mGET /light HTTP/1.1[0m" 200 -
+03:25:49,192 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:25:49] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:25:52,643 data_accessor INFO Looking at all lights
+03:25:52,644 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:25:52] "[37mGET /light HTTP/1.1[0m" 200 -
+03:25:52,644 data_accessor INFO Looking at thermostat
+03:25:52,645 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:25:52] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:25:57,757 data_accessor DEBUG Attempting to delete light [light6]
+03:25:57,758 data_accessor INFO Looking at all lights
+03:25:57,760 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:25:57] "[37mGET /light HTTP/1.1[0m" 200 -
+03:25:57,761 data_accessor INFO Deleted light [light6]
+03:25:57,761 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:25:57] "[37mDELETE /light?name=light6 HTTP/1.1[0m" 200 -
+03:25:59,689 data_accessor INFO Looking at all lights
+03:25:59,690 data_accessor INFO Looking at thermostat
+03:25:59,691 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:25:59] "[37mGET /light HTTP/1.1[0m" 200 -
+03:25:59,692 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:25:59] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:26:01,115 data_accessor INFO Looking at all lights
+03:26:01,117 data_accessor INFO Looking at thermostat
+03:26:01,117 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:26:01] "[37mGET /light HTTP/1.1[0m" 200 -
+03:26:01,118 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:26:01] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:26:02,17 data_accessor INFO Looking at all lights
+03:26:02,18 data_accessor INFO Looking at thermostat
+03:26:02,19 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:26:02] "[37mGET /light HTTP/1.1[0m" 200 -
+03:26:02,19 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:26:02] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:26:49,63 data_accessor INFO Looking at all lights
+03:26:49,64 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:26:49] "[37mGET /light HTTP/1.1[0m" 200 -
+03:27:02,751 data_accessor INFO Looking at all lights
+03:27:02,752 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:27:02] "[37mGET /light HTTP/1.1[0m" 200 -
+03:27:04,982 data_accessor INFO Looking at thermostat
+03:27:04,983 data_accessor INFO Looking at all lights
+03:27:04,984 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:27:04] "[37mGET /light HTTP/1.1[0m" 200 -
+03:27:04,984 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:27:04] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:27:05,664 data_accessor DEBUG Attempting to flip light [light1]
+03:27:05,666 data_accessor INFO Light [light1] now 
+03:27:05,667 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:27:05] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+03:27:06,726 data_accessor INFO Looking at all lights
+03:27:06,727 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:27:06] "[37mGET /light HTTP/1.1[0m" 200 -
+03:27:08,597 data_accessor INFO Looking at all lights
+03:27:08,599 data_accessor DEBUG Attempting to delete light [light1]
+03:27:08,601 data_accessor INFO Deleted light [light1]
+03:27:08,602 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:27:08] "[37mDELETE /light?name=light1 HTTP/1.1[0m" 200 -
+03:27:08,636 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:27:08] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:27:11,791 data_accessor INFO Looking at all lights
+03:27:11,792 data_accessor INFO Looking at thermostat
+03:27:11,793 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:27:11] "[37mGET /light HTTP/1.1[0m" 200 -
+03:27:11,793 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:27:11] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:30:23,762 data_accessor INFO Looking at all lights
+03:30:23,764 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:30:23] "[37mGET /light HTTP/1.1[0m" 200 -
+03:30:26,666 data_accessor INFO Looking at all lights
+03:30:26,667 data_accessor INFO Looking at thermostat
+03:30:26,667 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:30:26] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:30:26,667 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:30:26] "[37mGET /light HTTP/1.1[0m" 200 -
+03:30:27,546 data_accessor DEBUG Attempting to flip light [light2]
+03:30:27,548 data_accessor INFO Looking at all lights
+03:30:27,550 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:30:27] "[37mGET /light HTTP/1.1[0m" 200 -
+03:30:27,552 data_accessor INFO Light [light2] now 
+03:30:27,554 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:30:27] "[37mPOST /light?name=light2 HTTP/1.1[0m" 200 -
+03:30:28,761 data_accessor INFO Looking at all lights
+03:30:28,764 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:30:28] "[37mGET /light HTTP/1.1[0m" 200 -
+03:30:29,838 data_accessor DEBUG Attempting to flip light [light3]
+03:30:29,842 data_accessor INFO Looking at all lights
+03:30:29,843 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:30:29] "[37mGET /light HTTP/1.1[0m" 200 -
+03:30:29,845 data_accessor INFO Light [light3] now 
+03:30:29,846 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:30:29] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:30:30,790 data_accessor INFO Looking at all lights
+03:30:30,792 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:30:30] "[37mGET /light HTTP/1.1[0m" 200 -
+03:33:22,753 data_accessor INFO Looking at all lights
+03:33:22,753 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:33:22] "[37mGET /light HTTP/1.1[0m" 200 -
+03:33:25,503 data_accessor INFO Looking at all lights
+03:33:25,504 data_accessor INFO Looking at thermostat
+03:33:25,505 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:33:25] "[37mGET /light HTTP/1.1[0m" 200 -
+03:33:25,506 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:33:25] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:33:26,645 data_accessor DEBUG Attempting to flip light [light2]
+03:33:26,648 data_accessor INFO Looking at all lights
+03:33:26,651 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:33:26] "[37mGET /light HTTP/1.1[0m" 200 -
+03:33:26,651 data_accessor INFO Light [light2] now 
+03:33:26,653 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:33:26] "[37mPOST /light?name=light2 HTTP/1.1[0m" 200 -
+03:33:28,47 data_accessor INFO Looking at all lights
+03:33:28,49 data_accessor DEBUG Attempting to delete light [light2]
+03:33:28,51 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:33:28] "[37mGET /light HTTP/1.1[0m" 200 -
+03:33:28,54 data_accessor INFO Deleted light [light2]
+03:33:28,55 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:33:28] "[37mDELETE /light?name=light2 HTTP/1.1[0m" 200 -
+03:33:31,242 data_accessor INFO Looking at all lights
+03:33:31,243 data_accessor INFO Looking at thermostat
+03:33:31,244 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:33:31] "[37mGET /light HTTP/1.1[0m" 200 -
+03:33:31,244 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:33:31] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:36:07,756 data_accessor INFO Looking at all lights
+03:36:07,757 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:07] "[37mGET /light HTTP/1.1[0m" 200 -
+03:36:11,283 data_accessor INFO Looking at all lights
+03:36:11,284 data_accessor INFO Looking at thermostat
+03:36:11,291 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:11] "[37mGET /light HTTP/1.1[0m" 200 -
+03:36:11,291 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:11] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:36:12,54 data_accessor DEBUG Attempting to flip light [light4]
+03:36:12,56 data_accessor INFO Looking at all lights
+03:36:12,57 data_accessor INFO Light [light4] now 
+03:36:12,59 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:12] "[37mPOST /light?name=light4 HTTP/1.1[0m" 200 -
+03:36:12,60 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:12] "[37mGET /light HTTP/1.1[0m" 200 -
+03:36:12,855 data_accessor DEBUG Attempting to flip light [light4]
+03:36:12,856 data_accessor INFO Light [light4] now 
+03:36:12,856 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:12] "[37mPOST /light?name=light4 HTTP/1.1[0m" 200 -
+03:36:12,858 data_accessor INFO Looking at all lights
+03:36:12,859 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:12] "[37mGET /light HTTP/1.1[0m" 200 -
+03:36:13,189 data_accessor DEBUG Attempting to flip light [light4]
+03:36:13,192 data_accessor INFO Looking at all lights
+03:36:13,193 data_accessor INFO Light [light4] now 
+03:36:13,195 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:13] "[37mPOST /light?name=light4 HTTP/1.1[0m" 200 -
+03:36:13,221 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:13] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:36:13,392 data_accessor INFO Looking at all lights
+03:36:13,394 data_accessor DEBUG Attempting to flip light [light4]
+03:36:13,395 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:13] "[37mGET /light HTTP/1.1[0m" 200 -
+03:36:13,396 data_accessor INFO Light [light4] now 
+03:36:13,397 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:13] "[37mPOST /light?name=light4 HTTP/1.1[0m" 200 -
+03:36:13,596 data_accessor DEBUG Attempting to flip light [light4]
+03:36:13,598 data_accessor INFO Looking at all lights
+03:36:13,600 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:13] "[37mGET /light HTTP/1.1[0m" 200 -
+03:36:13,602 data_accessor INFO Light [light4] now 
+03:36:13,604 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:13] "[37mPOST /light?name=light4 HTTP/1.1[0m" 200 -
+03:36:13,794 data_accessor DEBUG Attempting to flip light [light4]
+03:36:13,800 data_accessor INFO Looking at all lights
+03:36:13,802 data_accessor INFO Light [light4] now 
+03:36:13,803 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:13] "[37mPOST /light?name=light4 HTTP/1.1[0m" 200 -
+03:36:13,833 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:13] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:36:46,983 data_accessor DEBUG Attempting to flip light [light4]
+03:36:46,986 data_accessor INFO Looking at all lights
+03:36:46,987 data_accessor INFO Light [light4] now 
+03:36:46,989 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:46] "[37mPOST /light?name=light4 HTTP/1.1[0m" 200 -
+03:36:47,21 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:36:47] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:37:15,259 data_accessor DEBUG Attempting to flip light [light3]
+03:37:15,262 data_accessor INFO Looking at all lights
+03:37:15,264 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:15] "[37mGET /light HTTP/1.1[0m" 200 -
+03:37:15,265 data_accessor INFO Light [light3] now 
+03:37:15,267 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:15] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:37:18,812 werkzeug INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+03:37:18,813 werkzeug INFO  * Restarting with stat
+03:37:19,10 werkzeug WARNING  * Debugger is active!
+03:37:19,11 werkzeug INFO  * Debugger PIN: 606-835-859
+03:37:21,578 data_accessor DEBUG Attempting to flip light [light3]
+03:37:21,579 data_accessor INFO Looking at all lights
+03:37:21,580 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:21] "[37mGET /light HTTP/1.1[0m" 200 -
+03:37:21,581 data_accessor INFO Light [light3] now 
+03:37:21,581 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:21] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:37:23,662 data_accessor DEBUG Attempting to flip light [light4]
+03:37:23,665 data_accessor INFO Looking at all lights
+03:37:23,667 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:23] "[37mGET /light HTTP/1.1[0m" 200 -
+03:37:23,667 data_accessor INFO Light [light4] now 
+03:37:23,669 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:23] "[37mPOST /light?name=light4 HTTP/1.1[0m" 200 -
+03:37:25,128 data_accessor INFO Looking at all lights
+03:37:25,131 data_accessor DEBUG Attempting to flip light [light4]
+03:37:25,134 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:25] "[37mGET /light HTTP/1.1[0m" 200 -
+03:37:25,135 data_accessor INFO Light [light4] now 
+03:37:25,137 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:25] "[37mPOST /light?name=light4 HTTP/1.1[0m" 200 -
+03:37:37,5 data_accessor DEBUG Attempting to flip light [light3]
+03:37:37,6 data_accessor INFO Looking at all lights
+03:37:37,7 data_accessor INFO Light [light3] now 
+03:37:37,8 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:37] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:37:37,22 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:37] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:37:39,181 data_accessor DEBUG Attempting to flip light [light3]
+03:37:39,182 data_accessor INFO Looking at all lights
+03:37:39,183 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:39] "[37mGET /light HTTP/1.1[0m" 200 -
+03:37:39,183 data_accessor INFO Light [light3] now 
+03:37:39,184 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:39] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:37:45,847 data_accessor DEBUG Attempting to flip light [light3]
+03:37:45,851 data_accessor INFO Looking at all lights
+03:37:45,852 data_accessor INFO Light [light3] now 
+03:37:45,854 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:45] "[37mGET /light HTTP/1.1[0m" 200 -
+03:37:45,856 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:45] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:37:46,564 data_accessor DEBUG Attempting to flip light [light3]
+03:37:46,565 data_accessor INFO Looking at all lights
+03:37:46,566 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:46] "[37mGET /light HTTP/1.1[0m" 200 -
+03:37:46,566 data_accessor INFO Light [light3] now 
+03:37:46,566 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:46] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:37:46,969 data_accessor DEBUG Attempting to flip light [light3]
+03:37:46,972 data_accessor INFO Looking at all lights
+03:37:46,974 data_accessor INFO Light [light3] now 
+03:37:46,976 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:46] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:37:46,998 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:46] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:37:47,215 data_accessor DEBUG Attempting to flip light [light3]
+03:37:47,221 data_accessor INFO Looking at all lights
+03:37:47,223 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:47] "[37mGET /light HTTP/1.1[0m" 200 -
+03:37:47,225 data_accessor INFO Light [light3] now 
+03:37:47,226 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:47] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:37:47,428 data_accessor DEBUG Attempting to flip light [light3]
+03:37:47,431 data_accessor INFO Looking at all lights
+03:37:47,433 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:47] "[37mGET /light HTTP/1.1[0m" 200 -
+03:37:47,435 data_accessor INFO Light [light3] now 
+03:37:47,437 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:37:47] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:38:17,722 data_accessor INFO Looking at all lights
+03:38:17,723 data_accessor INFO Looking at thermostat
+03:38:17,724 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:38:17] "[37mGET /light HTTP/1.1[0m" 200 -
+03:38:17,725 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:38:17] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:38:21,277 data_accessor DEBUG Attempting to flip light [light3]
+03:38:21,281 data_accessor INFO Looking at all lights
+03:38:21,284 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:38:21] "[37mGET /light HTTP/1.1[0m" 200 -
+03:38:21,286 data_accessor INFO Light [light3] now 
+03:38:21,288 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:38:21] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:38:27,71 data_accessor DEBUG Attempting to flip light [light3]
+03:38:27,72 data_accessor INFO Looking at all lights
+03:38:27,73 data_accessor INFO Light [light3] now 
+03:38:27,73 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:38:27] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:38:27,87 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:38:27] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:39:50,567 data_accessor INFO Looking at all lights
+03:39:50,568 data_accessor DEBUG Attempting to flip light [light3]
+03:39:50,569 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:39:50] "[37mGET /light HTTP/1.1[0m" 200 -
+03:39:50,569 data_accessor INFO Light [light3] now 
+03:39:50,570 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:39:50] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:39:51,977 data_accessor DEBUG Attempting to flip light [light3]
+03:39:51,979 data_accessor INFO Looking at all lights
+03:39:51,979 data_accessor INFO Light [light3] now 
+03:39:51,980 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:39:51] "[37mGET /light HTTP/1.1[0m" 200 -
+03:39:51,980 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:39:51] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:39:53,379 data_accessor DEBUG Attempting to flip light [light3]
+03:39:53,381 data_accessor INFO Looking at all lights
+03:39:53,383 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:39:53] "[37mGET /light HTTP/1.1[0m" 200 -
+03:39:53,385 data_accessor INFO Light [light3] now 
+03:39:53,387 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:39:53] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:39:54,515 data_accessor DEBUG Attempting to flip light [light3]
+03:39:54,518 data_accessor INFO Looking at all lights
+03:39:54,520 data_accessor INFO Light [light3] now 
+03:39:54,522 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:39:54] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:39:54,550 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:39:54] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:39:56,186 data_accessor DEBUG Attempting to flip light [light3]
+03:39:56,188 data_accessor INFO Looking at all lights
+03:39:56,190 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:39:56] "[37mGET /light HTTP/1.1[0m" 200 -
+03:39:56,190 data_accessor INFO Light [light3] now 
+03:39:56,192 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:39:56] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:39:57,521 data_accessor DEBUG Attempting to flip light [light3]
+03:39:57,526 data_accessor INFO Looking at all lights
+03:39:57,527 data_accessor INFO Light [light3] now 
+03:39:57,529 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:39:57] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:39:57,531 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:39:57] "[37mGET /light HTTP/1.1[0m" 200 -
+03:39:58,958 data_accessor DEBUG Attempting to flip light [light3]
+03:39:58,960 data_accessor INFO Looking at all lights
+03:39:58,960 data_accessor INFO Light [light3] now 
+03:39:58,961 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:39:58] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:39:58,972 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:39:58] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:40:00,534 data_accessor DEBUG Attempting to flip light [light3]
+03:40:00,534 data_accessor INFO Looking at all lights
+03:40:00,535 data_accessor INFO Light [light3] now 
+03:40:00,536 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:00] "[37mGET /light HTTP/1.1[0m" 200 -
+03:40:00,536 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:00] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:40:01,796 data_accessor DEBUG Attempting to flip light [light3]
+03:40:01,800 data_accessor INFO Looking at all lights
+03:40:01,801 data_accessor INFO Light [light3] now 
+03:40:01,803 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:01] "[37mGET /light HTTP/1.1[0m" 200 -
+03:40:01,804 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:01] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:40:02,947 data_accessor DEBUG Attempting to flip light [light3]
+03:40:02,949 data_accessor INFO Looking at all lights
+03:40:02,950 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:02] "[37mGET /light HTTP/1.1[0m" 200 -
+03:40:02,950 data_accessor INFO Light [light3] now 
+03:40:02,951 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:02] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:40:04,268 data_accessor DEBUG Attempting to flip light [light3]
+03:40:04,270 data_accessor INFO Looking at all lights
+03:40:04,270 data_accessor INFO Light [light3] now 
+03:40:04,271 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:04] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:40:04,272 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:04] "[37mGET /light HTTP/1.1[0m" 200 -
+03:40:05,285 data_accessor DEBUG Attempting to flip light [light3]
+03:40:05,289 data_accessor INFO Looking at all lights
+03:40:05,290 data_accessor INFO Light [light3] now 
+03:40:05,291 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:05] "[37mGET /light HTTP/1.1[0m" 200 -
+03:40:05,293 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:05] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:40:06,561 data_accessor DEBUG Attempting to flip light [light3]
+03:40:06,562 data_accessor INFO Light [light3] now 
+03:40:06,563 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:06] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:40:06,563 data_accessor INFO Looking at all lights
+03:40:06,565 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:06] "[37mGET /light HTTP/1.1[0m" 200 -
+03:40:07,878 data_accessor DEBUG Attempting to flip light [light3]
+03:40:07,881 data_accessor INFO Looking at all lights
+03:40:07,883 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:07] "[37mGET /light HTTP/1.1[0m" 200 -
+03:40:07,884 data_accessor INFO Light [light3] now 
+03:40:07,885 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:07] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:40:09,184 data_accessor DEBUG Attempting to flip light [light3]
+03:40:09,186 data_accessor INFO Looking at all lights
+03:40:09,188 data_accessor INFO Light [light3] now 
+03:40:09,189 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:09] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:40:09,216 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:40:09] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:41:01,398 data_accessor INFO Looking at all lights
+03:41:01,399 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:01] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:05,191 data_accessor DEBUG Attempting to flip light [light3]
+03:41:05,192 data_accessor INFO Looking at all lights
+03:41:05,193 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:05] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:05,194 data_accessor INFO Light [light3] now 
+03:41:05,194 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:05] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:05,717 data_accessor DEBUG Attempting to flip light [light3]
+03:41:05,718 data_accessor INFO Looking at all lights
+03:41:05,720 data_accessor INFO Light [light3] now 
+03:41:05,721 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:05] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:05,732 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:05] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:41:06,154 data_accessor DEBUG Attempting to flip light [light3]
+03:41:06,157 data_accessor INFO Looking at all lights
+03:41:06,160 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:06] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:06,161 data_accessor INFO Light [light3] now 
+03:41:06,162 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:06] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:06,833 data_accessor DEBUG Attempting to flip light [light3]
+03:41:06,834 data_accessor INFO Looking at all lights
+03:41:06,834 data_accessor INFO Light [light3] now 
+03:41:06,834 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:06] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:06,843 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:06] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:41:07,281 data_accessor DEBUG Attempting to flip light [light3]
+03:41:07,284 data_accessor INFO Looking at all lights
+03:41:07,284 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:07] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:07,285 data_accessor INFO Light [light3] now 
+03:41:07,285 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:07] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:07,799 data_accessor DEBUG Attempting to flip light [light3]
+03:41:07,802 data_accessor INFO Looking at all lights
+03:41:07,804 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:07] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:07,806 data_accessor INFO Light [light3] now 
+03:41:07,807 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:07] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:08,84 data_accessor DEBUG Attempting to flip light [light3]
+03:41:08,88 data_accessor INFO Looking at all lights
+03:41:08,88 data_accessor INFO Light [light3] now 
+03:41:08,90 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:08] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:08,92 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:08] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:08,299 data_accessor DEBUG Attempting to flip light [light3]
+03:41:08,301 data_accessor INFO Looking at all lights
+03:41:08,304 data_accessor INFO Light [light3] now 
+03:41:08,305 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:08] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:08,334 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:08] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:41:08,525 data_accessor DEBUG Attempting to flip light [light3]
+03:41:08,528 data_accessor INFO Looking at all lights
+03:41:08,531 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:08] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:08,533 data_accessor INFO Light [light3] now 
+03:41:08,547 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:08] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:08,754 data_accessor DEBUG Attempting to flip light [light3]
+03:41:08,756 data_accessor INFO Looking at all lights
+03:41:08,758 data_accessor INFO Light [light3] now 
+03:41:08,760 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:08] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:08,781 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:08] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:41:09,0 data_accessor DEBUG Attempting to flip light [light3]
+03:41:09,4 data_accessor INFO Looking at all lights
+03:41:09,6 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:09] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:09,8 data_accessor INFO Light [light3] now 
+03:41:09,9 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:09] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:09,214 data_accessor DEBUG Attempting to flip light [light3]
+03:41:09,217 data_accessor INFO Looking at all lights
+03:41:09,220 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:09] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:09,221 data_accessor INFO Light [light3] now 
+03:41:09,223 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:09] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:09,453 data_accessor DEBUG Attempting to flip light [light3]
+03:41:09,455 data_accessor INFO Looking at all lights
+03:41:09,457 data_accessor INFO Light [light3] now 
+03:41:09,458 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:09] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:09,489 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:09] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:41:09,672 data_accessor DEBUG Attempting to flip light [light3]
+03:41:09,674 data_accessor INFO Looking at all lights
+03:41:09,676 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:09] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:09,677 data_accessor INFO Light [light3] now 
+03:41:09,677 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:09] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:09,920 data_accessor DEBUG Attempting to flip light [light3]
+03:41:09,923 data_accessor INFO Looking at all lights
+03:41:09,925 data_accessor INFO Light [light3] now 
+03:41:09,926 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:09] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:09,953 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:09] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:41:10,160 data_accessor DEBUG Attempting to flip light [light3]
+03:41:10,163 data_accessor INFO Looking at all lights
+03:41:10,165 data_accessor INFO Light [light3] now 
+03:41:10,167 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:10] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:10,193 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:10] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:41:10,406 data_accessor DEBUG Attempting to flip light [light3]
+03:41:10,409 data_accessor INFO Looking at all lights
+03:41:10,411 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:10] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:10,412 data_accessor INFO Light [light3] now 
+03:41:10,414 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:10] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:10,628 data_accessor DEBUG Attempting to flip light [light3]
+03:41:10,632 data_accessor INFO Looking at all lights
+03:41:10,632 data_accessor INFO Light [light3] now 
+03:41:10,637 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:10] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:10,640 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:10] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:10,872 data_accessor DEBUG Attempting to flip light [light3]
+03:41:10,874 data_accessor INFO Looking at all lights
+03:41:10,876 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:10] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:10,877 data_accessor INFO Light [light3] now 
+03:41:10,879 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:10] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:11,145 data_accessor DEBUG Attempting to flip light [light3]
+03:41:11,148 data_accessor INFO Looking at all lights
+03:41:11,149 data_accessor INFO Light [light3] now 
+03:41:11,151 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:11] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:11,152 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:11] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:11,343 data_accessor DEBUG Attempting to flip light [light3]
+03:41:11,347 data_accessor INFO Looking at all lights
+03:41:11,348 data_accessor INFO Light [light3] now 
+03:41:11,349 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:11] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:11,351 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:11] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:27,600 werkzeug INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+03:41:27,601 werkzeug INFO  * Restarting with stat
+03:41:27,802 werkzeug WARNING  * Debugger is active!
+03:41:27,802 werkzeug INFO  * Debugger PIN: 606-835-859
+03:41:51,802 data_accessor DEBUG Attempting to flip light [light3]
+03:41:51,806 data_accessor INFO Looking at all lights
+03:41:51,810 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:51] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:51,811 data_accessor INFO Light [light3] now 
+03:41:51,814 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:51] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:54,2 data_accessor DEBUG Attempting to flip light [light3]
+03:41:54,6 data_accessor INFO Looking at all lights
+03:41:54,7 data_accessor INFO Light [light3] now 
+03:41:54,8 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:54] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:41:54,10 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:54] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:55,55 data_accessor INFO Looking at all lights
+03:41:55,58 data_accessor DEBUG Attempting to flip light [light3]
+03:41:55,61 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:55] "[37mGET /light HTTP/1.1[0m" 200 -
+03:41:55,64 data_accessor INFO Light [light3] now 
+03:41:55,66 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:41:55] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:42:00,555 data_accessor DEBUG Attempting to flip light [light3]
+03:42:00,557 data_accessor INFO Looking at all lights
+03:42:00,559 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:42:00] "[37mGET /light HTTP/1.1[0m" 200 -
+03:42:00,560 data_accessor INFO Light [light3] now 
+03:42:00,561 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:42:00] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:42:01,617 data_accessor DEBUG Attempting to flip light [light3]
+03:42:01,621 data_accessor INFO Looking at all lights
+03:42:01,623 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:42:01] "[37mGET /light HTTP/1.1[0m" 200 -
+03:42:01,624 data_accessor INFO Light [light3] now 
+03:42:01,626 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:42:01] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:42:02,314 data_accessor DEBUG Attempting to flip light [light3]
+03:42:02,316 data_accessor INFO Looking at all lights
+03:42:02,317 data_accessor INFO Light [light3] now 
+03:42:02,317 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:42:02] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:42:02,333 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:42:02] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:44:57,423 werkzeug INFO  * Detected change in '/home/simon/Canoo/thermostat-system/thermostat-system/api/data_accessor.py', reloading
+03:44:57,467 werkzeug INFO  * Restarting with stat
+03:44:57,693 werkzeug WARNING  * Debugger is active!
+03:44:57,694 werkzeug INFO  * Debugger PIN: 606-835-859
+03:45:39,614 data_accessor INFO Looking at all lights
+03:45:39,616 data_accessor INFO Looking at thermostat
+03:45:39,617 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:39] "[37mGET /light HTTP/1.1[0m" 200 -
+03:45:39,618 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:39] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:45:41,333 data_accessor DEBUG Attempting to flip light [light3]
+03:45:41,336 data_accessor INFO Looking at all lights
+03:45:41,338 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:41] "[37mGET /light HTTP/1.1[0m" 200 -
+03:45:41,339 data_accessor INFO Light [light3] now 
+03:45:41,341 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:41] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:45:42,244 data_accessor DEBUG Attempting to flip light [light3]
+03:45:42,246 data_accessor INFO Looking at all lights
+03:45:42,248 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:42] "[37mGET /light HTTP/1.1[0m" 200 -
+03:45:42,249 data_accessor INFO Light [light3] now 
+03:45:42,251 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:42] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:45:42,495 data_accessor DEBUG Attempting to flip light [light3]
+03:45:42,497 data_accessor INFO Looking at all lights
+03:45:42,499 data_accessor INFO Light [light3] now 
+03:45:42,500 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:42] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:45:42,501 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:42] "[37mGET /light HTTP/1.1[0m" 200 -
+03:45:42,705 data_accessor DEBUG Attempting to flip light [light3]
+03:45:42,708 data_accessor INFO Looking at all lights
+03:45:42,711 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:42] "[37mGET /light HTTP/1.1[0m" 200 -
+03:45:42,712 data_accessor INFO Light [light3] now 
+03:45:42,714 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:42] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:45:42,910 data_accessor DEBUG Attempting to flip light [light3]
+03:45:42,913 data_accessor INFO Looking at all lights
+03:45:42,914 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:42] "[37mGET /light HTTP/1.1[0m" 200 -
+03:45:42,916 data_accessor INFO Light [light3] now 
+03:45:42,917 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:42] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:45:43,91 data_accessor DEBUG Attempting to flip light [light3]
+03:45:43,92 data_accessor INFO Looking at all lights
+03:45:43,93 data_accessor INFO Light [light3] now 
+03:45:43,93 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:43] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:45:43,94 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:43] "[37mGET /light HTTP/1.1[0m" 200 -
+03:45:47,401 werkzeug INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+03:45:47,402 werkzeug INFO  * Restarting with stat
+03:45:47,596 werkzeug WARNING  * Debugger is active!
+03:45:47,597 werkzeug INFO  * Debugger PIN: 606-835-859
+03:45:56,498 data_accessor DEBUG Attempting to flip light [light3]
+03:45:56,501 data_accessor INFO Looking at all lights
+03:45:56,503 data_accessor INFO Light [light3] now 
+03:45:56,505 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:56] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:45:56,528 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:56] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:45:58,23 data_accessor DEBUG Attempting to flip light [light3]
+03:45:58,24 data_accessor INFO Looking at all lights
+03:45:58,25 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:58] "[37mGET /light HTTP/1.1[0m" 200 -
+03:45:58,25 data_accessor INFO Light [light3] now 
+03:45:58,26 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:58] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:45:58,741 data_accessor DEBUG Attempting to flip light [light3]
+03:45:58,743 data_accessor INFO Looking at all lights
+03:45:58,747 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:58] "[37mGET /light HTTP/1.1[0m" 200 -
+03:45:58,748 data_accessor INFO Light [light3] now 
+03:45:58,751 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:58] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:45:59,247 data_accessor DEBUG Attempting to flip light [light3]
+03:45:59,250 data_accessor INFO Looking at all lights
+03:45:59,252 data_accessor INFO Light [light3] now 
+03:45:59,253 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:59] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:45:59,272 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:59] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:45:59,489 data_accessor DEBUG Attempting to flip light [light3]
+03:45:59,491 data_accessor INFO Looking at all lights
+03:45:59,494 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:59] "[37mGET /light HTTP/1.1[0m" 200 -
+03:45:59,496 data_accessor INFO Light [light3] now 
+03:45:59,498 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:59] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:45:59,719 data_accessor DEBUG Attempting to flip light [light3]
+03:45:59,721 data_accessor INFO Looking at all lights
+03:45:59,724 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:59] "[37mGET /light HTTP/1.1[0m" 200 -
+03:45:59,725 data_accessor INFO Light [light3] now 
+03:45:59,726 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:45:59] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:46:00,141 data_accessor DEBUG Attempting to flip light [light3]
+03:46:00,145 data_accessor INFO Looking at all lights
+03:46:00,149 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:00] "[37mGET /light HTTP/1.1[0m" 200 -
+03:46:00,149 data_accessor INFO Light [light3] now 
+03:46:00,151 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:00] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:46:00,387 data_accessor DEBUG Attempting to flip light [light3]
+03:46:00,389 data_accessor INFO Looking at all lights
+03:46:00,393 data_accessor INFO Light [light3] now 
+03:46:00,394 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:00] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:46:00,434 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:00] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:46:00,617 data_accessor DEBUG Attempting to flip light [light3]
+03:46:00,620 data_accessor INFO Looking at all lights
+03:46:00,622 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:00] "[37mGET /light HTTP/1.1[0m" 200 -
+03:46:00,624 data_accessor INFO Light [light3] now 
+03:46:00,625 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:00] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:46:34,205 data_accessor INFO Looking at all lights
+03:46:34,206 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:34] "[37mGET /light HTTP/1.1[0m" 200 -
+03:46:34,207 data_accessor INFO Looking at thermostat
+03:46:34,208 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:34] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:46:35,314 data_accessor DEBUG Attempting to flip light [light3]
+03:46:35,318 data_accessor INFO Looking at all lights
+03:46:35,321 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:35] "[37mGET /light HTTP/1.1[0m" 200 -
+03:46:35,321 data_accessor INFO Light [light3] now 
+03:46:35,323 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:35] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:46:37,750 data_accessor INFO Looking at all lights
+03:46:37,751 data_accessor INFO Looking at thermostat
+03:46:37,752 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:37] "[37mGET /light HTTP/1.1[0m" 200 -
+03:46:37,753 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:37] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:46:39,491 data_accessor DEBUG Attempting to flip light [light3]
+03:46:39,492 data_accessor INFO Looking at all lights
+03:46:39,493 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:39] "[37mGET /light HTTP/1.1[0m" 200 -
+03:46:39,493 data_accessor INFO Light [light3] now 
+03:46:39,494 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:39] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:46:51,130 data_accessor INFO Looking at all lights
+03:46:51,132 data_accessor INFO Looking at thermostat
+03:46:51,136 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:51] "[37mGET /light HTTP/1.1[0m" 200 -
+03:46:51,137 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:46:51] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:47:15,614 data_accessor INFO Looking at all lights
+03:47:15,615 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:47:15] "[37mGET /light HTTP/1.1[0m" 200 -
+03:47:18,18 data_accessor DEBUG Attempting to flip light [light3]
+03:47:18,19 data_accessor INFO Looking at all lights
+03:47:18,20 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:47:18] "[37mGET /light HTTP/1.1[0m" 200 -
+03:47:18,21 data_accessor INFO Light [light3] now 
+03:47:18,21 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:47:18] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:47:18,682 data_accessor DEBUG Attempting to flip light [light3]
+03:47:18,683 data_accessor INFO Looking at all lights
+03:47:18,684 data_accessor INFO Light [light3] now 
+03:47:18,685 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:47:18] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:47:18,703 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:47:18] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:47:26,533 data_accessor DEBUG Attempting to flip light [light3]
+03:47:26,535 data_accessor INFO Light [light3] now 
+03:47:26,536 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:47:26] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:47:26,537 data_accessor INFO Looking at all lights
+03:47:26,538 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:47:26] "[37mGET /light HTTP/1.1[0m" 200 -
+03:47:27,168 data_accessor DEBUG Attempting to flip light [light3]
+03:47:27,169 data_accessor INFO Light [light3] now 
+03:47:27,170 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:47:27] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:47:27,173 data_accessor INFO Looking at all lights
+03:47:27,174 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:47:27] "[37mGET /light HTTP/1.1[0m" 200 -
+03:47:27,634 data_accessor DEBUG Attempting to flip light [light3]
+03:47:27,637 data_accessor INFO Looking at all lights
+03:47:27,639 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:47:27] "[37mGET /light HTTP/1.1[0m" 200 -
+03:47:27,640 data_accessor INFO Light [light3] now 
+03:47:27,642 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:47:27] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:47:28,149 data_accessor DEBUG Attempting to flip light [light3]
+03:47:28,151 data_accessor INFO Looking at all lights
+03:47:28,153 data_accessor INFO Light [light3] now 
+03:47:28,154 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:47:28] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:47:28,196 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:47:28] "[35m[1mGET /light HTTP/1.1[0m" 500 -
+03:48:17,931 data_accessor DEBUG Attempting to flip light [light3]
+03:48:17,932 data_accessor INFO Light [light3] now 
+03:48:17,932 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:17] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:19,201 data_accessor DEBUG Attempting to flip light [light3]
+03:48:19,201 data_accessor INFO Light [light3] now 
+03:48:19,202 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:19] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:20,4 data_accessor DEBUG Attempting to flip light [light3]
+03:48:20,5 data_accessor INFO Light [light3] now 
+03:48:20,5 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:20] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:20,673 data_accessor DEBUG Attempting to flip light [light3]
+03:48:20,673 data_accessor INFO Light [light3] now 
+03:48:20,673 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:20] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:21,147 data_accessor DEBUG Attempting to flip light [light3]
+03:48:21,147 data_accessor INFO Light [light3] now 
+03:48:21,149 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:21] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:22,777 data_accessor DEBUG Attempting to flip light [light3]
+03:48:22,777 data_accessor INFO Light [light3] now 
+03:48:22,778 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:22] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:23,242 data_accessor DEBUG Attempting to flip light [light3]
+03:48:23,242 data_accessor INFO Light [light3] now 
+03:48:23,243 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:23] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:23,763 data_accessor DEBUG Attempting to flip light [light3]
+03:48:23,767 data_accessor INFO Light [light3] now 
+03:48:23,767 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:23] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:24,156 data_accessor DEBUG Attempting to flip light [light3]
+03:48:24,157 data_accessor INFO Light [light3] now 
+03:48:24,157 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:24] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:24,483 data_accessor DEBUG Attempting to flip light [light3]
+03:48:24,483 data_accessor INFO Light [light3] now 
+03:48:24,484 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:24] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:24,932 data_accessor DEBUG Attempting to flip light [light3]
+03:48:24,932 data_accessor INFO Light [light3] now 
+03:48:24,933 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:24] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:25,295 data_accessor DEBUG Attempting to flip light [light3]
+03:48:25,295 data_accessor INFO Light [light3] now 
+03:48:25,295 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:25] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:25,575 data_accessor DEBUG Attempting to flip light [light3]
+03:48:25,575 data_accessor INFO Light [light3] now 
+03:48:25,575 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:25] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:26,775 data_accessor DEBUG Attempting to flip light [light3]
+03:48:26,775 data_accessor INFO Light [light3] now 
+03:48:26,776 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:26] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:27,341 data_accessor DEBUG Attempting to flip light [light3]
+03:48:27,341 data_accessor INFO Light [light3] now 
+03:48:27,342 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:27] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:27,866 data_accessor DEBUG Attempting to flip light [light3]
+03:48:27,867 data_accessor INFO Light [light3] now 
+03:48:27,867 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:27] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:29,195 data_accessor DEBUG Attempting to flip light [light3]
+03:48:29,196 data_accessor INFO Light [light3] now 
+03:48:29,196 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:29] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:29,707 data_accessor DEBUG Attempting to flip light [light3]
+03:48:29,707 data_accessor INFO Light [light3] now 
+03:48:29,707 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:29] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:30,885 data_accessor DEBUG Attempting to flip light [light3]
+03:48:30,886 data_accessor INFO Light [light3] now 
+03:48:30,887 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:30] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:31,433 data_accessor DEBUG Attempting to flip light [light3]
+03:48:31,434 data_accessor INFO Light [light3] now 
+03:48:31,434 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:31] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:32,50 data_accessor DEBUG Attempting to flip light [light3]
+03:48:32,51 data_accessor INFO Light [light3] now 
+03:48:32,51 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:32] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:32,572 data_accessor DEBUG Attempting to flip light [light3]
+03:48:32,573 data_accessor INFO Light [light3] now 
+03:48:32,573 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:32] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:33,141 data_accessor DEBUG Attempting to flip light [light3]
+03:48:33,141 data_accessor INFO Light [light3] now 
+03:48:33,142 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:33] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:46,257 data_accessor INFO Looking at all lights
+03:48:46,259 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:46] "[37mGET /light HTTP/1.1[0m" 200 -
+03:48:53,173 data_accessor INFO Looking at all lights
+03:48:53,175 data_accessor INFO Looking at thermostat
+03:48:53,176 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:53] "[37mGET /light HTTP/1.1[0m" 200 -
+03:48:53,177 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:53] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:48:54,502 data_accessor DEBUG Attempting to flip light [light3]
+03:48:54,504 data_accessor INFO Light [light3] now 
+03:48:54,506 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:54] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:55,380 data_accessor DEBUG Attempting to flip light [light3]
+03:48:55,382 data_accessor INFO Light [light3] now 
+03:48:55,384 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:55] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:55,793 data_accessor DEBUG Attempting to flip light [light3]
+03:48:55,794 data_accessor INFO Light [light3] now 
+03:48:55,794 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:55] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:56,49 data_accessor DEBUG Attempting to flip light [light3]
+03:48:56,51 data_accessor INFO Light [light3] now 
+03:48:56,52 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:56] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:56,245 data_accessor DEBUG Attempting to flip light [light3]
+03:48:56,247 data_accessor INFO Light [light3] now 
+03:48:56,248 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:56] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:56,439 data_accessor DEBUG Attempting to flip light [light3]
+03:48:56,441 data_accessor INFO Light [light3] now 
+03:48:56,443 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:56] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:56,640 data_accessor DEBUG Attempting to flip light [light3]
+03:48:56,641 data_accessor INFO Light [light3] now 
+03:48:56,642 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:56] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:56,850 data_accessor DEBUG Attempting to flip light [light3]
+03:48:56,851 data_accessor INFO Light [light3] now 
+03:48:56,853 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:56] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:57,65 data_accessor DEBUG Attempting to flip light [light3]
+03:48:57,75 data_accessor INFO Light [light3] now 
+03:48:57,76 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:57] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:57,271 data_accessor DEBUG Attempting to flip light [light3]
+03:48:57,271 data_accessor INFO Light [light3] now 
+03:48:57,272 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:57] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:57,510 data_accessor DEBUG Attempting to flip light [light3]
+03:48:57,512 data_accessor INFO Light [light3] now 
+03:48:57,513 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:57] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:57,770 data_accessor DEBUG Attempting to flip light [light3]
+03:48:57,771 data_accessor INFO Light [light3] now 
+03:48:57,773 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:57] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:57,979 data_accessor DEBUG Attempting to flip light [light3]
+03:48:57,980 data_accessor INFO Light [light3] now 
+03:48:57,982 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:57] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:58,204 data_accessor DEBUG Attempting to flip light [light3]
+03:48:58,206 data_accessor INFO Light [light3] now 
+03:48:58,208 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:58] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:58,448 data_accessor DEBUG Attempting to flip light [light3]
+03:48:58,449 data_accessor INFO Light [light3] now 
+03:48:58,451 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:58] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:58,714 data_accessor DEBUG Attempting to flip light [light3]
+03:48:58,715 data_accessor INFO Light [light3] now 
+03:48:58,716 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:58] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:58,941 data_accessor DEBUG Attempting to flip light [light3]
+03:48:58,943 data_accessor INFO Light [light3] now 
+03:48:58,944 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:58] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:59,171 data_accessor DEBUG Attempting to flip light [light3]
+03:48:59,173 data_accessor INFO Light [light3] now 
+03:48:59,174 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:59] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:59,401 data_accessor DEBUG Attempting to flip light [light3]
+03:48:59,403 data_accessor INFO Light [light3] now 
+03:48:59,405 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:59] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:48:59,616 data_accessor DEBUG Attempting to flip light [light3]
+03:48:59,618 data_accessor INFO Light [light3] now 
+03:48:59,619 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:48:59] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:49:03,948 data_accessor INFO Looking at all lights
+03:49:03,948 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:49:03] "[37mGET /light HTTP/1.1[0m" 200 -
+03:49:05,583 data_accessor DEBUG Attempting to flip light [light3]
+03:49:05,584 data_accessor INFO Light [light3] now 
+03:49:05,585 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:49:05] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:49:06,78 data_accessor DEBUG Attempting to flip light [light3]
+03:49:06,80 data_accessor INFO Light [light3] now 
+03:49:06,81 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:49:06] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:49:06,402 data_accessor DEBUG Attempting to flip light [light3]
+03:49:06,402 data_accessor INFO Light [light3] now 
+03:49:06,403 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:49:06] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:49:06,618 data_accessor DEBUG Attempting to flip light [light3]
+03:49:06,619 data_accessor INFO Light [light3] now 
+03:49:06,621 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:49:06] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:49:06,804 data_accessor DEBUG Attempting to flip light [light3]
+03:49:06,805 data_accessor INFO Light [light3] now 
+03:49:06,807 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:49:06] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:50:18,789 data_accessor DEBUG Attempting to add light with values [ImmutableMultiDict([('name', 'light5'), ('new', '')])]
+03:50:18,817 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:18] "[35m[1mPOST /light?name=light5&new= HTTP/1.1[0m" 500 -
+03:50:18,951 data_accessor INFO Looking at all lights
+03:50:18,952 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:18] "[37mGET /light HTTP/1.1[0m" 200 -
+03:50:18,955 data_accessor INFO Looking at thermostat
+03:50:18,957 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:18] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:50:20,950 data_accessor INFO Looking at all lights
+03:50:20,952 data_accessor INFO Looking at thermostat
+03:50:20,953 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:20] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:50:20,953 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:20] "[37mGET /light HTTP/1.1[0m" 200 -
+03:50:21,603 data_accessor INFO Looking at all lights
+03:50:21,604 data_accessor INFO Looking at thermostat
+03:50:21,606 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:21] "[37mGET /light HTTP/1.1[0m" 200 -
+03:50:21,606 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:21] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:50:22,108 data_accessor INFO Looking at all lights
+03:50:22,112 data_accessor INFO Looking at thermostat
+03:50:22,114 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:22] "[37mGET /light HTTP/1.1[0m" 200 -
+03:50:22,116 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:22] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:50:22,220 data_accessor INFO Looking at all lights
+03:50:22,222 data_accessor INFO Looking at thermostat
+03:50:22,224 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:22] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:50:22,226 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:22] "[37mGET /light HTTP/1.1[0m" 200 -
+03:50:22,499 data_accessor INFO Looking at all lights
+03:50:22,501 data_accessor INFO Looking at thermostat
+03:50:22,501 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:22] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:50:22,502 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:22] "[37mGET /light HTTP/1.1[0m" 200 -
+03:50:35,672 data_accessor INFO Looking at all lights
+03:50:35,673 data_accessor INFO Looking at thermostat
+03:50:35,674 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:35] "[37mGET /light HTTP/1.1[0m" 200 -
+03:50:35,674 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:35] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:50:36,196 data_accessor INFO Looking at all lights
+03:50:36,198 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:36] "[37mGET /light HTTP/1.1[0m" 200 -
+03:50:36,199 data_accessor INFO Looking at thermostat
+03:50:36,202 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:36] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:50:36,757 data_accessor INFO Looking at all lights
+03:50:36,760 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:36] "[37mGET /light HTTP/1.1[0m" 200 -
+03:50:36,763 data_accessor INFO Looking at thermostat
+03:50:36,764 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:36] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:50:37,51 data_accessor INFO Looking at all lights
+03:50:37,54 data_accessor INFO Looking at thermostat
+03:50:37,56 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:37] "[37mGET /light HTTP/1.1[0m" 200 -
+03:50:37,57 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:37] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:50:37,349 data_accessor INFO Looking at all lights
+03:50:37,351 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:37] "[37mGET /light HTTP/1.1[0m" 200 -
+03:50:37,354 data_accessor INFO Looking at thermostat
+03:50:37,355 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:37] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:50:46,551 werkzeug INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+03:50:46,552 werkzeug INFO  * Restarting with stat
+03:50:46,782 werkzeug WARNING  * Debugger is active!
+03:50:46,782 werkzeug INFO  * Debugger PIN: 606-835-859
+03:50:53,121 data_accessor DEBUG Attempting to add light with values [ImmutableMultiDict([('name', 'light5'), ('new', '')])]
+03:50:53,154 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:53] "[35m[1mPOST /light?name=light5&new= HTTP/1.1[0m" 500 -
+03:50:53,252 data_accessor INFO Looking at all lights
+03:50:53,253 data_accessor INFO Looking at thermostat
+03:50:53,254 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:53] "[37mGET /light HTTP/1.1[0m" 200 -
+03:50:53,255 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:53] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:50:56,744 data_accessor INFO Looking at all lights
+03:50:56,745 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:56] "[37mGET /light HTTP/1.1[0m" 200 -
+03:50:56,746 data_accessor INFO Looking at thermostat
+03:50:56,747 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:56] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:50:57,432 data_accessor INFO Looking at all lights
+03:50:57,433 data_accessor INFO Looking at thermostat
+03:50:57,433 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:57] "[37mGET /light HTTP/1.1[0m" 200 -
+03:50:57,433 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:50:57] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:51:16,497 data_accessor INFO Looking at all lights
+03:51:16,500 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:16] "[37mGET /light HTTP/1.1[0m" 200 -
+03:51:17,573 data_accessor DEBUG Attempting to flip light [light3]
+03:51:17,577 data_accessor INFO Light [light3] now 
+03:51:17,579 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:17] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:51:18,132 data_accessor DEBUG Attempting to flip light [light3]
+03:51:18,134 data_accessor INFO Light [light3] now 
+03:51:18,136 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:18] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:51:18,433 data_accessor DEBUG Attempting to flip light [light3]
+03:51:18,434 data_accessor INFO Light [light3] now 
+03:51:18,437 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:18] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:51:18,640 data_accessor DEBUG Attempting to flip light [light3]
+03:51:18,641 data_accessor INFO Light [light3] now 
+03:51:18,643 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:18] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:51:18,853 data_accessor DEBUG Attempting to flip light [light3]
+03:51:18,855 data_accessor INFO Light [light3] now 
+03:51:18,856 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:18] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:51:19,63 data_accessor DEBUG Attempting to flip light [light3]
+03:51:19,64 data_accessor INFO Light [light3] now 
+03:51:19,66 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:19] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:51:31,882 data_accessor INFO Looking at all lights
+03:51:31,883 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:31] "[37mGET /light HTTP/1.1[0m" 200 -
+03:51:35,176 data_accessor DEBUG Attempting to flip light [light3]
+03:51:35,177 data_accessor INFO Light [light3] now 
+03:51:35,178 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:35] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:51:36,70 data_accessor DEBUG Attempting to delete light [light3]
+03:51:36,72 data_accessor INFO Deleted light [light3]
+03:51:36,74 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:36] "[37mDELETE /light?name=light3 HTTP/1.1[0m" 200 -
+03:51:39,522 data_accessor INFO Looking at all lights
+03:51:39,524 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:39] "[37mGET /light HTTP/1.1[0m" 200 -
+03:51:39,525 data_accessor INFO Looking at thermostat
+03:51:39,527 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:39] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:51:44,882 data_accessor DEBUG Attempting to add light with values [ImmutableMultiDict([('name', 'light5'), ('new', '')])]
+03:51:44,905 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:44] "[35m[1mPOST /light?name=light5&new= HTTP/1.1[0m" 500 -
+03:51:44,961 data_accessor INFO Looking at all lights
+03:51:44,962 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:44] "[37mGET /light HTTP/1.1[0m" 200 -
+03:51:44,964 data_accessor INFO Looking at thermostat
+03:51:44,964 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:44] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:51:46,773 data_accessor INFO Looking at all lights
+03:51:46,775 data_accessor INFO Looking at thermostat
+03:51:46,775 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:46] "[37mGET /light HTTP/1.1[0m" 200 -
+03:51:46,778 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:46] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:51:47,518 data_accessor INFO Looking at all lights
+03:51:47,520 data_accessor INFO Looking at thermostat
+03:51:47,522 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:47] "[37mGET /light HTTP/1.1[0m" 200 -
+03:51:47,524 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:47] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:51:47,854 data_accessor INFO Looking at all lights
+03:51:47,856 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:47] "[37mGET /light HTTP/1.1[0m" 200 -
+03:51:47,857 data_accessor INFO Looking at thermostat
+03:51:47,858 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:47] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:51:47,952 data_accessor INFO Looking at all lights
+03:51:47,953 data_accessor INFO Looking at thermostat
+03:51:47,954 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:47] "[37mGET /light HTTP/1.1[0m" 200 -
+03:51:47,956 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:47] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:51:48,278 data_accessor INFO Looking at all lights
+03:51:48,281 data_accessor INFO Looking at thermostat
+03:51:48,286 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:48] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:51:48,288 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:48] "[37mGET /light HTTP/1.1[0m" 200 -
+03:51:48,450 data_accessor INFO Looking at all lights
+03:51:48,456 data_accessor INFO Looking at thermostat
+03:51:48,458 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:48] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:51:48,460 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:48] "[37mGET /light HTTP/1.1[0m" 200 -
+03:51:48,766 data_accessor INFO Looking at all lights
+03:51:48,769 data_accessor INFO Looking at thermostat
+03:51:48,772 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:48] "[37mGET /light HTTP/1.1[0m" 200 -
+03:51:48,773 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:48] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:51:49,24 data_accessor INFO Looking at all lights
+03:51:49,26 data_accessor INFO Looking at thermostat
+03:51:49,27 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:49] "[37mGET /light HTTP/1.1[0m" 200 -
+03:51:49,29 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:51:49] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:52:05,856 werkzeug INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+03:52:05,857 werkzeug INFO  * Restarting with stat
+03:52:06,116 werkzeug WARNING  * Debugger is active!
+03:52:06,116 werkzeug INFO  * Debugger PIN: 606-835-859
+03:52:10,905 data_accessor DEBUG Attempting to add light with values [ImmutableMultiDict([('name', 'qwerty'), ('new', '')])]
+03:52:10,942 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:52:10] "[35m[1mPOST /light?name=qwerty&new= HTTP/1.1[0m" 500 -
+03:52:11,40 data_accessor INFO Looking at all lights
+03:52:11,41 data_accessor INFO Looking at thermostat
+03:52:11,42 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:52:11] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:52:11,43 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:52:11] "[37mGET /light HTTP/1.1[0m" 200 -
+03:52:18,73 data_accessor INFO Looking at all lights
+03:52:18,75 data_accessor INFO Looking at thermostat
+03:52:18,76 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:52:18] "[37mGET /light HTTP/1.1[0m" 200 -
+03:52:18,77 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:52:18] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:52:22,745 data_accessor DEBUG Attempting to add light with values [ImmutableMultiDict([('name', 'qwerty'), ('new', '')])]
+03:52:22,784 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:52:22] "[35m[1mPOST /light?name=qwerty&new= HTTP/1.1[0m" 500 -
+03:52:22,910 data_accessor INFO Looking at all lights
+03:52:22,911 data_accessor INFO Looking at thermostat
+03:52:22,914 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:52:22] "[37mGET /light HTTP/1.1[0m" 200 -
+03:52:22,915 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:52:22] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:52:56,604 werkzeug INFO  * Detected change in '/home/simon/Canoo/thermostat-system/thermostat-system/api/data_accessor.py', reloading
+03:52:56,652 werkzeug INFO  * Restarting with stat
+03:52:56,971 werkzeug WARNING  * Debugger is active!
+03:52:56,971 werkzeug INFO  * Debugger PIN: 606-835-859
+03:53:03,620 data_accessor DEBUG Attempting to add light with values [ImmutableMultiDict([('name', 'light5'), ('new', '')])]
+03:53:03,622 data_accessor INFO Added light [light5]
+03:53:03,625 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:53:03] "[37mPOST /light?name=light5&new= HTTP/1.1[0m" 200 -
+03:53:06,449 data_accessor INFO Looking at thermostat
+03:53:06,450 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:53:06] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:53:06,451 data_accessor INFO Looking at all lights
+03:53:06,453 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:53:06] "[37mGET /light HTTP/1.1[0m" 200 -
+03:54:04,400 data_accessor DEBUG Attempting to add light with values [ImmutableMultiDict([('name', 'light6'), ('new', '')])]
+03:54:04,401 data_accessor INFO Added light [light6]
+03:54:04,403 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:54:04] "[37mPOST /light?name=light6&new= HTTP/1.1[0m" 200 -
+03:54:06,74 data_accessor INFO Looking at all lights
+03:54:06,76 data_accessor INFO Looking at thermostat
+03:54:06,76 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:54:06] "[37mGET /light HTTP/1.1[0m" 200 -
+03:54:06,78 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:54:06] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:54:07,724 data_accessor DEBUG Attempting to flip light [light6]
+03:54:07,726 data_accessor INFO Light [light6] now 
+03:54:07,727 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:54:07] "[37mPOST /light?name=light6 HTTP/1.1[0m" 200 -
+03:54:08,351 data_accessor DEBUG Attempting to flip light [light6]
+03:54:08,352 data_accessor INFO Light [light6] now 
+03:54:08,354 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:54:08] "[37mPOST /light?name=light6 HTTP/1.1[0m" 200 -
+03:54:08,566 data_accessor DEBUG Attempting to flip light [light6]
+03:54:08,568 data_accessor INFO Light [light6] now 
+03:54:08,570 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:54:08] "[37mPOST /light?name=light6 HTTP/1.1[0m" 200 -
+03:54:08,766 data_accessor DEBUG Attempting to flip light [light6]
+03:54:08,768 data_accessor INFO Light [light6] now 
+03:54:08,770 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:54:08] "[37mPOST /light?name=light6 HTTP/1.1[0m" 200 -
+03:56:02,778 data_accessor INFO Looking at all lights
+03:56:02,780 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:56:02] "[37mGET /light HTTP/1.1[0m" 200 -
+03:56:08,240 data_accessor INFO Looking at thermostat
+03:56:08,240 data_accessor INFO Looking at all lights
+03:56:08,241 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:56:08] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:56:08,241 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:56:08] "[37mGET /light HTTP/1.1[0m" 200 -
+03:56:09,195 data_accessor DEBUG Attempting to flip light [light4]
+03:56:09,196 data_accessor INFO Light [light4] now 
+03:56:09,198 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:56:09] "[37mPOST /light?name=light4 HTTP/1.1[0m" 200 -
+03:56:09,845 data_accessor DEBUG Attempting to flip light [light4]
+03:56:09,846 data_accessor INFO Light [light4] now 
+03:56:09,848 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:56:09] "[37mPOST /light?name=light4 HTTP/1.1[0m" 200 -
+03:56:10,554 data_accessor DEBUG Attempting to delete light [light4]
+03:56:10,555 data_accessor INFO Deleted light [light4]
+03:56:10,557 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:56:10] "[37mDELETE /light?name=light4 HTTP/1.1[0m" 200 -
+03:56:23,615 data_accessor INFO Looking at all lights
+03:56:23,617 data_accessor INFO Looking at thermostat
+03:56:23,618 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:56:23] "[37mGET /light HTTP/1.1[0m" 200 -
+03:56:23,618 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:56:23] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:56:28,56 data_accessor DEBUG Attempting to flip light [light5]
+03:56:28,58 data_accessor INFO Light [light5] now 
+03:56:28,60 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:56:28] "[37mPOST /light?name=light5 HTTP/1.1[0m" 200 -
+03:56:29,374 data_accessor INFO Looking at all lights
+03:56:29,376 data_accessor INFO Looking at thermostat
+03:56:29,378 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:56:29] "[37mGET /light HTTP/1.1[0m" 200 -
+03:56:29,379 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:56:29] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:56:48,453 data_accessor INFO Looking at all lights
+03:56:48,454 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:56:48] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:31,753 data_accessor INFO Looking at all lights
+03:57:31,755 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:31] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:34,487 data_accessor INFO Looking at all lights
+03:57:34,489 data_accessor INFO Looking at thermostat
+03:57:34,491 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:34] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:34,493 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:34] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:34,991 data_accessor INFO Looking at all lights
+03:57:34,993 data_accessor INFO Looking at thermostat
+03:57:34,994 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:34] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:34,995 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:34] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:35,506 data_accessor INFO Looking at all lights
+03:57:35,507 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:35] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:35,508 data_accessor INFO Looking at thermostat
+03:57:35,509 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:35] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:35,917 data_accessor DEBUG Attempting to flip light [light5]
+03:57:35,919 data_accessor INFO Light [light5] now 
+03:57:35,920 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:35] "[37mPOST /light?name=light5 HTTP/1.1[0m" 200 -
+03:57:36,97 data_accessor INFO Looking at all lights
+03:57:36,99 data_accessor INFO Looking at thermostat
+03:57:36,100 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:36] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:36,103 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:36] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:37,448 data_accessor DEBUG Attempting to flip light [light6]
+03:57:37,449 data_accessor INFO Light [light6] now 
+03:57:37,450 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:37] "[37mPOST /light?name=light6 HTTP/1.1[0m" 200 -
+03:57:37,528 data_accessor INFO Looking at thermostat
+03:57:37,529 data_accessor INFO Looking at all lights
+03:57:37,530 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:37] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:37,531 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:37] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:38,299 data_accessor DEBUG Attempting to flip light [light6]
+03:57:38,301 data_accessor INFO Light [light6] now 
+03:57:38,303 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:38] "[37mPOST /light?name=light6 HTTP/1.1[0m" 200 -
+03:57:38,382 data_accessor INFO Looking at all lights
+03:57:38,383 data_accessor INFO Looking at thermostat
+03:57:38,383 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:38] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:38,384 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:38] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:38,958 data_accessor DEBUG Attempting to flip light [light6]
+03:57:38,960 data_accessor INFO Light [light6] now 
+03:57:38,961 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:38] "[37mPOST /light?name=light6 HTTP/1.1[0m" 200 -
+03:57:39,39 data_accessor INFO Looking at all lights
+03:57:39,40 data_accessor INFO Looking at thermostat
+03:57:39,40 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:39] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:39,42 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:39] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:39,299 data_accessor DEBUG Attempting to flip light [light6]
+03:57:39,301 data_accessor INFO Light [light6] now 
+03:57:39,303 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:39] "[37mPOST /light?name=light6 HTTP/1.1[0m" 200 -
+03:57:39,479 data_accessor INFO Looking at all lights
+03:57:39,482 data_accessor INFO Looking at thermostat
+03:57:39,484 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:39] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:39,486 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:39] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:39,984 data_accessor DEBUG Attempting to flip light [light5]
+03:57:39,986 data_accessor INFO Light [light5] now 
+03:57:39,988 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:39] "[37mPOST /light?name=light5 HTTP/1.1[0m" 200 -
+03:57:40,167 data_accessor INFO Looking at all lights
+03:57:40,172 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:40] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:40,175 data_accessor INFO Looking at thermostat
+03:57:40,177 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:40] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:40,415 data_accessor DEBUG Attempting to flip light [light5]
+03:57:40,417 data_accessor INFO Light [light5] now 
+03:57:40,418 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:40] "[37mPOST /light?name=light5 HTTP/1.1[0m" 200 -
+03:57:40,592 data_accessor INFO Looking at all lights
+03:57:40,594 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:40] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:40,596 data_accessor INFO Looking at thermostat
+03:57:40,597 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:40] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:41,303 data_accessor DEBUG Attempting to flip light [light6]
+03:57:41,305 data_accessor INFO Light [light6] now 
+03:57:41,307 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:41] "[37mPOST /light?name=light6 HTTP/1.1[0m" 200 -
+03:57:41,480 data_accessor INFO Looking at all lights
+03:57:41,484 data_accessor INFO Looking at thermostat
+03:57:41,487 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:41] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:41,489 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:41] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:41,899 data_accessor DEBUG Attempting to flip light [light6]
+03:57:41,901 data_accessor INFO Light [light6] now 
+03:57:41,902 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:41] "[37mPOST /light?name=light6 HTTP/1.1[0m" 200 -
+03:57:42,64 data_accessor INFO Looking at all lights
+03:57:42,66 data_accessor INFO Looking at thermostat
+03:57:42,69 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:42] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:42,70 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:42] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:42,375 data_accessor DEBUG Attempting to flip light [light6]
+03:57:42,376 data_accessor INFO Light [light6] now 
+03:57:42,377 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:42] "[37mPOST /light?name=light6 HTTP/1.1[0m" 200 -
+03:57:42,515 data_accessor INFO Looking at all lights
+03:57:42,517 data_accessor INFO Looking at thermostat
+03:57:42,519 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:42] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:42,520 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:42] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:43,23 data_accessor DEBUG Attempting to flip light [light6]
+03:57:43,25 data_accessor INFO Light [light6] now 
+03:57:43,26 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:43] "[37mPOST /light?name=light6 HTTP/1.1[0m" 200 -
+03:57:43,169 data_accessor INFO Looking at all lights
+03:57:43,172 data_accessor INFO Looking at thermostat
+03:57:43,173 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:43] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:43,174 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:43] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:44,14 data_accessor DEBUG Attempting to delete light [light5]
+03:57:44,15 data_accessor INFO Deleted light [light5]
+03:57:44,17 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:44] "[37mDELETE /light?name=light5 HTTP/1.1[0m" 200 -
+03:57:44,971 data_accessor INFO Looking at all lights
+03:57:44,972 data_accessor INFO Looking at thermostat
+03:57:44,973 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:44] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:44,973 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:44] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:46,175 data_accessor DEBUG Attempting to delete light [light6]
+03:57:46,177 data_accessor INFO Deleted light [light6]
+03:57:46,179 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:46] "[37mDELETE /light?name=light6 HTTP/1.1[0m" 200 -
+03:57:46,953 data_accessor INFO Looking at all lights
+03:57:46,954 data_accessor INFO Looking at thermostat
+03:57:46,957 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:46] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:46,958 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:46] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:50,122 data_accessor DEBUG Attempting to add light with values [ImmutableMultiDict([('name', 'light1'), ('new', '')])]
+03:57:50,123 data_accessor INFO Added light [light1]
+03:57:50,125 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:50] "[37mPOST /light?name=light1&new= HTTP/1.1[0m" 200 -
+03:57:50,854 data_accessor INFO Looking at all lights
+03:57:50,855 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:50] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:50,856 data_accessor INFO Looking at thermostat
+03:57:50,857 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:50] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:54,621 data_accessor DEBUG Attempting to add light with values [ImmutableMultiDict([('name', 'light2'), ('new', '')])]
+03:57:54,622 data_accessor INFO Added light [light2]
+03:57:54,624 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:54] "[37mPOST /light?name=light2&new= HTTP/1.1[0m" 200 -
+03:57:55,88 data_accessor INFO Looking at all lights
+03:57:55,90 data_accessor INFO Looking at thermostat
+03:57:55,91 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:55] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:55,92 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:55] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:57:58,382 data_accessor DEBUG Attempting to add light with values [ImmutableMultiDict([('name', 'light3'), ('new', '')])]
+03:57:58,383 data_accessor INFO Added light [light3]
+03:57:58,384 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:58] "[37mPOST /light?name=light3&new= HTTP/1.1[0m" 200 -
+03:57:58,730 data_accessor INFO Looking at all lights
+03:57:58,731 data_accessor INFO Looking at thermostat
+03:57:58,732 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:58] "[37mGET /light HTTP/1.1[0m" 200 -
+03:57:58,733 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:57:58] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:58:00,543 data_accessor DEBUG Attempting to flip light [light1]
+03:58:00,545 data_accessor INFO Light [light1] now 
+03:58:00,547 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:00] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+03:58:00,628 data_accessor INFO Looking at all lights
+03:58:00,629 data_accessor INFO Looking at thermostat
+03:58:00,629 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:00] "[37mGET /light HTTP/1.1[0m" 200 -
+03:58:00,631 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:00] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:58:01,39 data_accessor DEBUG Attempting to flip light [light1]
+03:58:01,40 data_accessor INFO Light [light1] now 
+03:58:01,40 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:01] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+03:58:01,115 data_accessor INFO Looking at all lights
+03:58:01,116 data_accessor INFO Looking at thermostat
+03:58:01,119 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:01] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:58:01,118 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:01] "[37mGET /light HTTP/1.1[0m" 200 -
+03:58:01,500 data_accessor DEBUG Attempting to flip light [light1]
+03:58:01,501 data_accessor INFO Light [light1] now 
+03:58:01,503 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:01] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+03:58:01,652 data_accessor INFO Looking at all lights
+03:58:01,655 data_accessor INFO Looking at thermostat
+03:58:01,659 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:01] "[37mGET /light HTTP/1.1[0m" 200 -
+03:58:01,661 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:01] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:58:01,957 data_accessor DEBUG Attempting to flip light [light1]
+03:58:01,959 data_accessor INFO Light [light1] now 
+03:58:01,961 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:01] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+03:58:02,148 data_accessor INFO Looking at all lights
+03:58:02,154 data_accessor INFO Looking at thermostat
+03:58:02,156 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:02] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:58:02,161 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:02] "[37mGET /light HTTP/1.1[0m" 200 -
+03:58:02,474 data_accessor DEBUG Attempting to flip light [light2]
+03:58:02,476 data_accessor INFO Light [light2] now 
+03:58:02,478 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:02] "[37mPOST /light?name=light2 HTTP/1.1[0m" 200 -
+03:58:02,630 data_accessor INFO Looking at all lights
+03:58:02,632 data_accessor INFO Looking at thermostat
+03:58:02,636 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:02] "[37mGET /light HTTP/1.1[0m" 200 -
+03:58:02,640 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:02] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:58:02,898 data_accessor DEBUG Attempting to flip light [light2]
+03:58:02,900 data_accessor INFO Light [light2] now 
+03:58:02,901 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:02] "[37mPOST /light?name=light2 HTTP/1.1[0m" 200 -
+03:58:03,100 data_accessor INFO Looking at all lights
+03:58:03,103 data_accessor INFO Looking at thermostat
+03:58:03,105 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:03] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:58:03,106 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:03] "[37mGET /light HTTP/1.1[0m" 200 -
+03:58:03,507 data_accessor DEBUG Attempting to flip light [light2]
+03:58:03,508 data_accessor INFO Light [light2] now 
+03:58:03,510 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:03] "[37mPOST /light?name=light2 HTTP/1.1[0m" 200 -
+03:58:03,650 data_accessor INFO Looking at all lights
+03:58:03,650 data_accessor INFO Looking at thermostat
+03:58:03,651 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:03] "[37mGET /light HTTP/1.1[0m" 200 -
+03:58:03,653 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:03] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:58:04,95 data_accessor DEBUG Attempting to flip light [light3]
+03:58:04,96 data_accessor INFO Light [light3] now 
+03:58:04,98 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:04] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:58:04,202 data_accessor INFO Looking at all lights
+03:58:04,204 data_accessor INFO Looking at thermostat
+03:58:04,205 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:04] "[37mGET /light HTTP/1.1[0m" 200 -
+03:58:04,206 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:04] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:58:04,406 data_accessor DEBUG Attempting to flip light [light3]
+03:58:04,410 data_accessor INFO Light [light3] now 
+03:58:04,412 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:04] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:58:04,592 data_accessor INFO Looking at all lights
+03:58:04,594 data_accessor INFO Looking at thermostat
+03:58:04,596 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:04] "[37mGET /light HTTP/1.1[0m" 200 -
+03:58:04,597 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:04] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:58:05,165 data_accessor DEBUG Attempting to flip light [light3]
+03:58:05,166 data_accessor INFO Light [light3] now 
+03:58:05,168 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:05] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+03:58:05,311 data_accessor INFO Looking at thermostat
+03:58:05,313 data_accessor INFO Looking at all lights
+03:58:05,315 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:05] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:58:05,316 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:05] "[37mGET /light HTTP/1.1[0m" 200 -
+03:58:09,349 data_accessor DEBUG Attempting to update thermostat with values [ImmutableMultiDict([('temperature', ''), ('unit', 'C')])]
+03:58:09,350 data_accessor INFO Updated thermostat with values [Temperature: 20, Unit: C]
+03:58:09,352 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:09] "[37mPOST /thermostat?temperature=&unit=C HTTP/1.1[0m" 200 -
+03:58:10,193 data_accessor INFO Looking at all lights
+03:58:10,194 data_accessor INFO Looking at thermostat
+03:58:10,195 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:10] "[37mGET /light HTTP/1.1[0m" 200 -
+03:58:10,197 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:58:10] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:59:00,274 data_accessor DEBUG Attempting to update thermostat with values [ImmutableMultiDict([('temperature', '25'), ('unit', '')])]
+03:59:00,276 data_accessor INFO Updated thermostat with values [Temperature: 25, Unit: C]
+03:59:00,277 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:59:00] "[37mPOST /thermostat?temperature=25&unit= HTTP/1.1[0m" 200 -
+03:59:00,954 data_accessor INFO Looking at all lights
+03:59:00,955 data_accessor INFO Looking at thermostat
+03:59:00,956 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:59:00] "[37mGET /light HTTP/1.1[0m" 200 -
+03:59:00,957 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:59:00] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+03:59:44,987 data_accessor DEBUG Attempting to flip light [light1]
+03:59:44,988 data_accessor INFO Light [light1] now 
+03:59:44,989 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:59:44] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+03:59:45,104 data_accessor INFO Looking at all lights
+03:59:45,105 data_accessor INFO Looking at thermostat
+03:59:45,107 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:59:45] "[37mGET /light HTTP/1.1[0m" 200 -
+03:59:45,112 werkzeug INFO 127.0.0.1 - - [05/May/2021 03:59:45] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+04:00:38,112 werkzeug INFO  * Detected change in '/home/simon/Canoo/thermostat-system/thermostat-system/api/data_accessor.py', reloading
+04:00:38,153 werkzeug INFO  * Restarting with stat
+04:00:38,479 werkzeug WARNING  * Debugger is active!
+04:00:38,479 werkzeug INFO  * Debugger PIN: 606-835-859
+04:00:48,703 data_accessor DEBUG Attempting to flip light [light1]
+04:00:48,703 data_accessor INFO Light [light1] now off
+04:00:48,704 werkzeug INFO 127.0.0.1 - - [05/May/2021 04:00:48] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+04:00:48,815 data_accessor INFO Looking at all lights
+04:00:48,817 data_accessor INFO Looking at thermostat
+04:00:48,819 werkzeug INFO 127.0.0.1 - - [05/May/2021 04:00:48] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+04:00:48,818 werkzeug INFO 127.0.0.1 - - [05/May/2021 04:00:48] "[37mGET /light HTTP/1.1[0m" 200 -
+04:00:49,82 data_accessor DEBUG Attempting to flip light [light1]
+04:00:49,83 data_accessor INFO Light [light1] now on
+04:00:49,84 werkzeug INFO 127.0.0.1 - - [05/May/2021 04:00:49] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+04:00:49,221 data_accessor INFO Looking at all lights
+04:00:49,223 data_accessor INFO Looking at thermostat
+04:00:49,224 werkzeug INFO 127.0.0.1 - - [05/May/2021 04:00:49] "[37mGET /light HTTP/1.1[0m" 200 -
+04:00:49,225 werkzeug INFO 127.0.0.1 - - [05/May/2021 04:00:49] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+04:00:49,572 data_accessor DEBUG Attempting to flip light [light1]
+04:00:49,574 data_accessor INFO Light [light1] now off
+04:00:49,575 werkzeug INFO 127.0.0.1 - - [05/May/2021 04:00:49] "[37mPOST /light?name=light1 HTTP/1.1[0m" 200 -
+04:00:49,756 data_accessor INFO Looking at all lights
+04:00:49,759 data_accessor INFO Looking at thermostat
+04:00:49,763 werkzeug INFO 127.0.0.1 - - [05/May/2021 04:00:49] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+04:00:49,761 werkzeug INFO 127.0.0.1 - - [05/May/2021 04:00:49] "[37mGET /light HTTP/1.1[0m" 200 -
+04:00:50,383 data_accessor DEBUG Attempting to flip light [light3]
+04:00:50,386 data_accessor INFO Light [light3] now off
+04:00:50,387 werkzeug INFO 127.0.0.1 - - [05/May/2021 04:00:50] "[37mPOST /light?name=light3 HTTP/1.1[0m" 200 -
+04:00:50,486 data_accessor INFO Looking at all lights
+04:00:50,488 data_accessor INFO Looking at thermostat
+04:00:50,489 werkzeug INFO 127.0.0.1 - - [05/May/2021 04:00:50] "[37mGET /light HTTP/1.1[0m" 200 -
+04:00:50,489 werkzeug INFO 127.0.0.1 - - [05/May/2021 04:00:50] "[37mGET /thermostat HTTP/1.1[0m" 200 -
+04:12:07,273 data_accessor INFO Looking at all lights
+04:12:07,274 data_accessor INFO Looking at thermostat
+04:12:07,275 werkzeug INFO 127.0.0.1 - - [05/May/2021 04:12:07] "[37mGET /light HTTP/1.1[0m" 200 -
+04:12:07,275 werkzeug INFO 127.0.0.1 - - [05/May/2021 04:12:07] "[37mGET /thermostat HTTP/1.1[0m" 200 -

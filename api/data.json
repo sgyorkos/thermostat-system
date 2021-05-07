@@ -1,0 +1,1 @@
+{"lights": [{"name": "light1", "on": 0}, {"name": "light2", "on": 1}, {"name": "light3", "on": 0}], "thermostat": {"temperature": 25, "unit": "C"}}
