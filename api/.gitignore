@@ -1,0 +1,5 @@
+__pycache__/
+logs/transactions.log
+venv/
+.cache/
+data.json
